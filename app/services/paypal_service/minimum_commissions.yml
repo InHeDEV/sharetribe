@@ -1,0 +1,31 @@
+# Minimum PayPal commissions in cents
+
+ARS: 2000 # a bit more than USD 0.50
+AUD: 50
+BRL: 50
+BGN: 100 # a bit more than USD 0.50
+CAD: 50
+CHF: 100
+CZK: 1500
+DKK: 500
+EUR: 50
+GBP: 50
+HKD: 500
+HUF: 100 # equals 100.00 HUF Hungarian Forint has no cents
+ILS: 200
+INR: 5000 # a bit more than USD 0.50
+JPY: 50
+MXN: 500
+MYR: 200
+NOK: 500
+NZD: 50
+PHP: 2000
+PLN: 200
+RON: 300 # a bit more than USD 0.50
+RUB: 1500
+SEK: 500
+SGD: 100
+THB: 1500
+TRY: 150
+TWD: 1500
+USD: 50

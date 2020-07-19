@@ -1,0 +1,198 @@
+@import "mixins/all";
+@import "compass/css3/user-interface";
+
+.admin-sort-button {
+  outline: none;
+}
+
+.admin-left-navi-link-group-title {
+  color: $aside;
+  text-transform: uppercase;
+  padding-top: 5px;
+  padding-bottom: 5px;
+}
+
+.admin-left-navi-link-group {
+  padding-bottom: 10px;
+}
+
+.admin-left-navi-link-group-last {
+  margin-bottom: 50px; // To make space to the bottom of the page
+}
+
+// Matching Selectize widget to our look
+.locale-selection__input-widget.selectize-control {
+  .selectize-input {
+    border: em(2) solid $border;
+    @include border-radius(em(5));
+    font-size: em(16);
+    min-height: em(42);
+    div.item {
+      padding-top: em(4);
+      padding-bottom: em(4);
+      a.remove {
+        padding-top: em(4);
+        font-size: em(16);
+      }
+    }
+  } 
+}
+
+// Prevent the original select widget from blinking before the styled one is rendered
+select#locale-selection {
+  visibility: hidden;
+  height: em(50);
+}
+
+.info-text-container {
+  .info-thumbnail {
+    float: left;
+    margin-right: 1.5em;
+    .thumbnail {
+      float: left;
+      margin-left: 19px;
+    }
+    .description {
+      clear: both;
+      & > i {
+        margin-right: 3px;
+      }
+    }
+    .current-image {
+      color: gray;
+    }
+  }
+  &.filename-container {
+    margin-top: 0;
+  }
+}
+
+.status-select-button {
+  position: relative;
+  padding: em(4) em(8) 0;
+  @include border-radius(em(5));
+  border: 2px solid $border;
+   @include media(tablet) {
+    margin: 0;
+    padding: em(8) em(11) 0;
+  }
+  &:after {
+    content: "▼";
+    position: absolute;
+    right: 4px;
+    top: 8px;
+  }
+
+  min-height: 42px;
+  cursor: pointer;
+  line-height: normal;
+}
+.col-3.status-select-wrapper {
+  position: relative;
+  padding: 0;
+}
+.status-select-dropdown {
+  position: absolute;
+  @include border-radius(em(5));
+  border: 2px solid $border;
+  left: 0;
+  right: 0;
+  top: 0;
+  z-index: 10;
+  background: white;
+  display: none
+}
+.status-select-line {
+  width: 100%;
+  min-height: 42px;
+  padding: em(4) em(8);
+  border-bottom: 2px solid $border;
+  cursor: pointer;
+   @include media(tablet) {
+    margin: 0;
+    padding: em(8) em(11);
+  }
+
+
+  &:last-child {
+    border-bottom: none;
+  }
+  &.selected {
+    background-color: $link;
+    color: $background;
+  }
+  &.reset {
+    &:after {
+      content: "▲";
+      position: absolute;
+      right: 4px;
+      top: 8px;
+    }
+  }
+}
+.status-select-line input {
+  display: none;
+}
+#bg-image-preview, .bg-image-preview {
+  width: 90%;
+  margin: 20px;
+  min-height: 90px;
+  img {
+    width: 100%;
+    height: auto;
+  }
+}
+.collapsible {
+  .collapse-down {
+    display: none;
+  }
+  .collapse-up {
+    display: inline;
+  }
+  .collapse-item {
+    display: block;
+  }
+  &.collapsed {
+    .collapse-down {
+      display: inline;
+    }
+    .collapse-up {
+      display: none;
+    }
+    .collapse-item {
+      display: none;
+    }
+  }
+}
+.section-column-header-toggle {
+  cursor: pointer;
+  margin: lines(0.5) 0 0;
+  @include normal-type;
+  font-weight: 500;
+
+  @include media(small-tablet) {
+    @include big-type;
+    font-weight: 500;
+    text-transform: none;
+  }
+
+  i {
+    color: gray;
+  }
+  .clear-fix {
+    clear: both;
+  }
+}
+label.after-info-text {
+  margin-top: 0;
+}
+form {
+  .checkbox-container.file-delete-box {
+    input[type=checkbox] {
+      top: 8px;
+    }
+    label {
+      margin-top: 0.1875em;
+    }
+  }
+}

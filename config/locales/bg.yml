@@ -1,0 +1,3236 @@
+bg:
+  number:
+    currency:
+      format:
+        separator: ~
+        delimiter: ~
+        format: ~
+  admin:
+    categories:
+      edit:
+        edit_listing_category: "Редактиране на категория %{category}"
+      index:
+        listing_categories: ~
+        create_a_new_category: ~
+        remove_category_confirmation: ~
+        saving_order: ~
+        save_order_successful: ~
+        save_order_error: ~
+      new:
+        new_listing_category: ~
+      form:
+        category_name:
+          category_title: ~
+        category_parent:
+          category_parent: ~
+          no_parent: ~
+        category_transaction_types:
+          transaction_types: ~
+          transaction_types_description: ~
+          select_all: ~
+          clear_all: ~
+        buttons:
+          save: Запомни
+          cancel: Отказ
+      remove:
+        remove_category: ~
+        remove_category_name: ~
+        warning_remove_effects: ~
+        select_new_category: ~
+        buttons:
+          remove: Премахни
+          cancel: Отказ
+    communities:
+      edit_details:
+        community_details: "Основни детайли"
+        community_look_and_feel: Дизайн
+        edit_community: "Основни детайли"
+        enabled_languages: ~
+        enabled_languages_description: ~
+        default_language: ~
+        language_selection_disabled: ~
+        community_name: "Име на пазара"
+        edit_community_name_description: ~
+        community_slogan: "Пазарен лозунг"
+        community_slogan_display: "Покажи слогана в своята начална страница"
+        edit_community_slogan_description: ~
+        edit_community_slogan_description_hideable: "Това се показва в браузери, търсачки и социални мрежи. Можеш също да го покажеш в своята начална страница за онези потребители които не са логнати. %{see_how_it_looks_like}"
+        community_description: "Описание на пазара"
+        community_description_display: "Покажи описанието в своята начална страница"
+        edit_community_description_description: ~
+        edit_community_description_description_hideable: "Това се показва в браузери, търсачки и социални мрежи. Можеш също да го покажеш в своята начална страница за онези потребители които не са логнати. %{see_how_it_looks_like}"
+        community_search_placeholder: ~
+        edit_community_search_placeholder_description: ~
+        private_community_homepage_content: ~
+        edit_private_community_homepage_content_description: ~
+        update_information: "Запазване на настройките"
+        invite_people: "Поканете нови потребители"
+        edit_signup_info: ~
+        edit_signup_info_description: ~
+        edit_info: ~
+        see_how_it_looks_like: ~
+        verification_to_post_listings_info_content: ~
+        verification_to_post_listings_info_content_description: ~
+        verification_to_post_listings_info_content_default: ~
+        contact_admin_link_text: ~
+        save: ~
+        transaction_agreement: ~
+        transaction_agreement_checkbox: ~
+        transaction_agreement_checkbox_header: ~
+        transaction_agreement_checkbox_label_description: ~
+        transaction_agreement_text_header: ~
+        transaction_agreement_description: ~
+        terms_privacy_policy_and_static_content: ~
+        terms_privacy_policy_and_static_content_infotext: ~
+      edit_look_and_feel:
+        edit_community_look_and_feel: "Редактирайте външния вид и усещането на пазара „%{community_name}“"
+        community_logo: Лого
+        community_logo_icon: ~
+        community_logo_icon_mobile: "Лого за началния екран при мобилни устройства"
+        community_cover_photo: ~
+        small_community_cover_photo: ~
+        favicon: ~
+        favicon_info_text: ~
+        community_custom_color1: "Основен цвят на пазара"
+        community_slogan_color: ~
+        community_slogan_color_instructions_text: ~
+        community_description_color: ~
+        community_description_color_instructions_text: ~
+        new_listing_button_custom_color: ~
+        logo_instructions_text_with_dimensions: ~
+        logo_instructions_text_with_dimensions_no_placing: ~
+        logo_icon_instructions_text_with_dimensions: ~
+        logo_icon_instructions_text_with_dimensions_no_placing: ~
+        logo_mobile_icon_instructions_text_with_dimensions: "Това квадратно лого ще бъде показано в мобилните устройства когато хората добавят Вашия сайт като любим \"bookmark\". Препоръчителните размери са %{width}x%{height}px."
+        cover_photo_visibility: ~
+        cover_photo_instructions_text_with_dimensions: ~
+        we_have_you_covered: ~
+        cover_photo_ready_made: ~
+        small_cover_photo_visibility: ~
+        small_cover_photo_instructions_text_with_dimensions: ~
+        main_content_width: ~
+        custom_color1_instructions_text: ~
+        new_listing_button_instructions_text: ~
+        default_browse_view: ~
+        default_browse_view_instructions_text: ~
+        grid: ~
+        list: ~
+        map: ~
+        name_display_type: ~
+        name_display_type_instructions_text: ~
+        full_name: ~
+        first_name_with_initial: ~
+        first_name_only: ~
+        invalid_color_code: ~
+        custom_head_script: ~
+        custom_head_script_instructions_text: ~
+        current_image: ~
+      edit_text_instructions:
+        edit_text_instructions: ~
+      edit_welcome_email:
+        welcome_email_content: ~
+        welcome_email_content_description: ~
+        edit_message: ~
+        send_test_message: ~
+      outgoing_email:
+        title: ~
+        info: ~
+        read_more: ~
+        sender_address: ~
+        sender_address_default: ~
+        need_to_change: ~
+        contact_support_link_text: ~
+        set_sender_address: ~
+        sender_name_label: ~
+        sender_name_placeholder: ~
+        sender_email_label: ~
+        sender_email_placeholder: ~
+        amazon_ses_notification: ~
+        this_is_how_it_will_look: ~
+        send_verification_button: "Изпратено писмо за потвърждение."
+        change_sender_email: ~
+        successfully_saved: ~
+        successfully_saved_name: ~
+        set_sender_name: ~
+        change_sender_name: ~
+        change_sender_prompt: ~
+        status: ~
+        status_verified: ~
+        status_error: ~
+        status_requested: ~
+        status_expired: ~
+        status_resent: ~
+        resend_link: ~
+        invalid_email_error: ~
+        invalid_email_address: ~
+        invalid_email_domain: ~
+        invalid_email_domain_read_more_link: ~
+        unknown_error: ~
+        white_label_offer: ~
+        upgrade_plan_link: ~
+        verification_sent_from: ~
+        follow_the_instructions: ~
+      getting_started:
+        getting_started: ~
+      available_languages:
+        cs: ~
+        da-DK: ~
+        de: ~
+        en: ~
+        en-AU: ~
+        en-GB: ~
+        es: ~
+        es-ES: ~
+        fi: ~
+        fr: ~
+        fr-CA: ~
+        el: ~
+        it: ~
+        ja: ~
+        ko: ~
+        nb: ~
+        nl: ~
+        pl: ~
+        pt-BR: ~
+        pt-PT: ~
+        ru: ~
+        sv: ~
+        th-TH: ~
+        tr-TR: ~
+        vi: ~
+        zh: ~
+        zh-TW: ~
+      settings:
+        settings: ~
+        general: ~
+        access: ~
+        join_with_invite_only: ~
+        users_can_invite_new_users: ~
+        private: ~
+        require_verification_to_post_listings: ~
+        allow_free_conversations: ~
+        search_preferences: ~
+        search_and_location_preferences: ~
+        default_search_type: ~
+        keyword_search: ~
+        keyword_and_location_search: ~
+        location_search: ~
+        select_distance_unit: ~
+        km: ~
+        miles: ~
+        show_only_nearby: ~
+        allow_users_to_add_location: ~
+        fuzzy_location: ~
+        listing_preferences: ~
+        transaction_preferences: ~
+        show_listing_publishing_date: ~
+        show_category_in_listing_list: ~
+        listing_comments_in_use: ~
+        email_preferences: ~
+        automatic_newsletters: ~
+        email_admins_about_new_members: ~
+        google_analytics_key: ~
+        twitter_handle: ~
+        update_settings: ~
+        automatically_confirmed_no_escrow: ~
+        automatically_confirmed_no_escrow_stripe_info: ~
+        buyer_transaction_fees_are_only_supported_with_stripe: ~
+        automatic_newsletter_frequency: ~
+        newsletter_daily: ~
+        newsletter_weekly: ~
+        delete_marketplace_title: ~
+        type_marketplace_domain: ~
+        type_marketplace_domain_placeholder: ~
+        once_you_delete: ~
+        are_you_sure: ~
+        i_understand_button: ~
+        last_community_updates: ~
+        you_will_be_redirected_to: ~
+        delete_this_marketplace: ~
+        payment_preferences: ~
+        pre_approved_listings: ~
+        email_admins_about_new_transactions: ~
+      manage_members:
+        manage_members: ~
+        email: ~
+        name: ~
+        display_name: "Публично име"
+        join_date: ~
+        admin: ~
+        posting_allowed: ~
+        ban_user: ~
+        saving_user_status: ~
+        save_user_status_successful: ~
+        export_all_as_csv: ~
+        save_user_status_error: ~
+        ban_user_confirmation: ~
+        unban_user_confirmation: ~
+        ban_me_error: "Не можете да деактивирате собствения си акаунт."
+        have_ongoing_transactions: ~
+        only_delete_disabled: ~
+        delete_info1: "Ако изтриете този акаунт, личната информация (име, телефонен номер, адрес, имейл, снимка на потребителския профил и т.н.) ще бъде изтрита за постоянно и не може да бъде възстановена. Всички списъци, които са създали, ще бъдат премахнати. Няма да можете да активирате отново този акаунт."
+        delete_info2: ~
+        search: ~
+        search_by_name_email: ~
+        reset_search: ~
+        for_search_terms: ~
+        this_makes_the_user_an_admin: ~
+        status_filter:
+          all: "Всички статуси"
+          selected: "Избрани статуси: %{count}"
+          selected_js: "Избрани статуси: "
+          admin: Администратор
+          banned: Забранено
+          posting_allowed: "Публикуването позволено"
+          accepted: Прието
+          unconfirmed: Непотвърден
+          pending: Изчакване
+        this_user_hasnt_confirmed_their_email_address: "Този потребител не е потвърдил своя имейл адрес. Възможно е да не е получил имейл за потвърждение. Натисни ботона препрати за да го изпратиш отново."
+        unconfirmed_user: "Непотвърден потребител: %{name}"
+        resend: Препрати
+        cancel: Откажи
+        confirm: ~
+        user_didnt_complete_the_signup_process: "Този потребител се регистрира чрез Фейсбук но не довърши регистрационния процес. След свързването към своя Фейсбук профил, потребителите трябва също да приемат условията на ползване на сайта, както и да попълнят задължителните полета."
+        pending_user: "Изчакване: %{name}"
+      new_layout:
+        new_layout: ~
+        description_roadmap_new: ~
+        enabled_for_you: ~
+        enabled_for_all: ~
+        new_topbar: ~
+        searchpage: ~
+        new_email_templates: ~
+      social_media:
+        social_media: ~
+        logo: Лого
+        logo_info: "Тази снимка се използва когато някой споделя Вашия домейн в социалните мрежи (Facebook, Twitter, LinkedIn).За по-добри резултати е препоръчително да бъде в съотношение 2:1 и минимален размер от %{width} x %{height} px"
+        social_media_title: ~
+        social_media_title_info: ~
+        link_for_facebook: ~
+        link_for_linkedin: ~
+        link_for_twitter: ~
+        social_media_description: ~
+        twitter_handle: ~
+        twitter_handle_info_text: "Потребителско име в Twitter на Вашият пазар(Ако имате такова). Ще бъде видимо, когато някой използва tweet бутона на страницата на Вашата обява."
+        twitter_handle_info_text_with_instructions: ~
+        twitter_instructions_link_text: ~
+        twitter_handle_placeholder: ~
+        invalid_twitter_handle: ~
+        facebook_connect: ~
+        facebook_developers_dashboard: ~
+        facebook_connect_info_text: ~
+        facebook_connect_info_text_with_instructions: ~
+        facebook_instructions_link_text: ~
+        facebook_connect_id: ~
+        invalid_facebook_connect_id: ~
+        facebook_connect_secret: ~
+        invalid_facebook_connect_secret: ~
+        enable_facebook_login: ~
+        save: ~
+        google_connect: ~
+        google_instructions_link_text: ~
+        google_developers_console: ~
+        google_connect_info_text_with_instructions: ~
+        google_connect_info_text: ~
+        enable_google_login: ~
+        google_connect_id: ~
+        google_connect_secret: ~
+        linkedin_connect: ~
+        linkedin_instructions_link_text: ~
+        linkedin_developers_dashboard: ~
+        linkedin_connect_info_text_with_instructions: ~
+        linkedin_connect_info_text: ~
+        enable_linkedin_login: ~
+        linkedin_connect_id: ~
+        linkedin_connect_secret: ~
+      seo_settings:
+        seo: SEO
+        title: "Начална страница или персонализирана целева страница"
+        meta_title_label: "Meta tag на заглавие на начална страница или персонализирана целева страница"
+        meta_title_info: "Съдържанието на този етикет е препоръчано на търсачките и е изобразено в резултатите под формата на заглавие на което да се кликне. %{link}"
+        meta_title_link_text: "Научи още за meta tags"
+        meta_description_label: "Meta tag на описание на начална страница или персонализирана целева страница"
+        meta_description_info: "Съдържанието на този етикет е препоръчано на търсачките и се появява под сините линкове в страницата с резултати на търсачките. %{link}"
+        meta_description_link_text: "Научи още за meta tags"
+        search_title: ~
+        search_meta_title_label: ~
+        search_meta_title_info: ~
+        search_meta_title_link_text: ~
+        search_meta_description_label: ~
+        search_meta_description_info: ~
+        search_meta_description_link_text: ~
+        listing_title: ~
+        listing_meta_title_label: ~
+        listing_meta_title_info: ~
+        listing_meta_title_link_text: ~
+        listing_meta_description_label: ~
+        listing_meta_description_info: ~
+        listing_meta_description_link_text: ~
+        category_title: ~
+        category_meta_title_label: ~
+        category_meta_title_info: ~
+        category_meta_title_link_text: ~
+        category_meta_description_label: ~
+        category_meta_description_info: ~
+        category_meta_description_link_text: ~
+        profile_title: ~
+        profile_meta_title_label: ~
+        profile_meta_title_info: ~
+        profile_meta_title_link_text: ~
+        profile_meta_description_label: ~
+        profile_meta_description_info: ~
+        profile_meta_description_link_text: ~
+        sitemap_label: "Карта на сайта"
+        sitemap_info: "Картата на сайта е един лесен начин да информираш търсачките относно страниците на сайта ти които са достъпни за обхождане. %{link}"
+        sitemap_info_link_text: "Научи още за карта на сайта файл XML"
+        sitemap_info_public: "Карта на сайт е автоматично създадена за твоя онлайн пазар: тя описва до 500 от последните обяви създадени през твоя уебсайт. Можеш да влезеш в твоята карта на сайт през %{link}."
+        sitemap_info_private: "След като твоят онлайн пазар е частен, няма карта на сайт."
+        robots_label: Robots.txt
+        robots_info: "Robots.txt e един текстов файл който инструктира роботи (става въпрос за роботите които посещават търсачките) как да обхождат страниците в твоя уебсайт. %{link}."
+        robots_info_link_text: "Научи още за файла robots.txt"
+        robots_info_2: "Robots.txt файлът е автоматично създадена за твоя онлайн пазар. Можеш да го посетиш през %{link}."
+        google_search_console: ~
+        google_search_console_paragraph1: ~
+        google_search_console_these_instructions: ~
+        google_search_console_paragraph2: ~
+        save: "Запази настройките"
+      analytics:
+        analytics: ~
+        google_analytics_key: ~
+        google_analytics_key_info_text: ~
+        google_analytics_key_info_text_with_instructions: ~
+        google_analytics_instructions_link_text: ~
+        sharetribe_analytics: ~
+        sharetribe_analytics_info_text_with_instructions: ~
+        sharetribe_analytics_instructions_link_text: ~
+        end_user_analytics: ~
+        save: ~
+        google_tag_manager: ~
+        gtm_paragraph_1: ~
+        gtm_paragraph_2: ~
+        learn_how_to_configure_gtm: ~
+      logo_link:
+        title: "Линк от логото"
+        info: "Можете да персонализирате линка от логото (както и на бутона на началната страница на горното меню). По подразбиране логото води потребителите до началната страница или персонализираната целева страница."
+        url: URL
+        placeholder: "https://www.example.com"
+      menu_links:
+        menu_links: ~
+        menu_links_display: ~
+        save: ~
+        add_menu_link: ~
+        title_placeholder: ~
+        url_placeholder: ~
+        title: ~
+        language: ~
+        url: ~
+        empty: ~
+        max_number_of_links: ~
+        all: ~
+        max_number_of_links_info: ~
+        about_page: ~
+      default_menu_links:
+        title: "Линкове на менюто по подразбиране"
+        about_link_title: Относно
+        contact_link_title: "Свържете се с нас"
+        invite_link_title: "Покани нови потребители"
+        info: "По подразбиране линковете към следните страници не се показват никъде другаде в страницата: %{about_link}, %{contact_link}, %{invite_link}"
+        display_about: "Покажи линк към <i> About </i> и други статични страници"
+        display_contact: "Покажи линк към страницата <i> Contact us </i>"
+        display_invite: "Покажи линк към страницата <i> Invite new members </i>"
+      topbar:
+        topbar: ~
+        new_listing_button_label: ~
+        invalid_post_listing_button_label: ~
+      transactions:
+        export_all_as_csv: ~
+        processing_export: ~
+        transactions: ~
+        search_by_title_parties: ~
+        search: ~
+        reset_search: ~
+        status_filter:
+          all: ~
+          selected: ~
+          selected_js: ~
+          free: ~
+          confirmed: ~
+          paid: ~
+          canceled: ~
+          disputed: ~
+          preauthorized: ~
+          rejected: ~
+          payment_intent_requires_action: ~
+          payment_intent_action_expired: ~
+          refunded: ~
+          dismissed: ~
+        headers:
+          conversation: ~
+          listing: ~
+          status: ~
+          sum: ~
+          started: ~
+          last_activity: ~
+          initiated_by: ~
+          other_party: ~
+        status:
+          conversation: ~
+          free: ~
+          pending: ~
+          preauthorized: ~
+          accepted: ~
+          rejected: ~
+          paid: ~
+          confirmed: ~
+          canceled: ~
+          disputed: ~
+          initiated: ~
+          pending_ext: ~
+          none:
+            free: ~
+          paypal:
+            free: ~
+            pending: ~
+            preauthorized: ~
+            accepted: ~
+            rejected: ~
+            paid: ~
+            confirmed: ~
+            canceled: ~
+            disputed: ~
+            initiated: ~
+            pending_ext: ~
+            refunded: ~
+            dismissed: ~
+          stripe:
+            free: ~
+            pending: ~
+            preauthorized: ~
+            accepted: ~
+            rejected: ~
+            paid: ~
+            confirmed: ~
+            canceled: ~
+            disputed: ~
+            initiated: ~
+            pending_ext: ~
+            payment_intent_requires_action: ~
+            payment_intent_action_expired: ~
+            payment_intent_failed: ~
+            refunded: ~
+            dismissed: ~
+        not_available: ~
+      conversations:
+        conversations: ~
+        headers:
+          started_from: ~
+          status: ~
+          started: ~
+          last_activity: ~
+          initiated_by: ~
+          other_party: ~
+        participants: ~
+        profile: ~
+        search_by_keyword: ~
+        search: ~
+        reset_search: ~
+        for_keyword: ~
+      testimonials:
+        testimonials: ~
+        no_testimonials_found: ~
+        displaying_xx_reviews: ~
+        search_keyword: ~
+        search: ~
+        reset_search: ~
+        for_keyword: ~
+        headers:
+          transaction: ~
+          author: ~
+          receiver: ~
+          status: ~
+          grade: ~
+          text: Текст
+        status:
+          waiting: ~
+          skipped: ~
+          published: ~
+          blocked: Блокирано
+        status_filter:
+          selected: "Избрани филтри: %{count}"
+          all: Филтри
+          published: Публикувано
+          positive: Положително
+          negative: Отрицателно
+          skipped: Подминато
+          waiting: Изчакване
+          blocked: Блокирано
+          selected_js: "Избрани филтри: "
+        form:
+          review_text: "Прегледай текста"
+          save: Запази
+          cancel: Отмени
+          delete_review: "Изтрий коментара"
+          block_review: "Блокирай коментара"
+          confirm_modify: "Сигурен ли си че искаш да промениш/изтриеш този коментар? След промяната/истриването няма да имаш възможност да възстановиш тази информация"
+          deleting_info: "Изтриването на коментар позволява на неговия автор да остави нов коментар за дадената транзакция."
+          blocking_info: "Блокирането на коментара след неговото изтриване не позволява на неговия автор да остави нов коментар за същата транзакция."
+          unskip: ~
+          if_you_unskip_the_review: "Ако отмените прегледа, потребителят ще може да публикува такъв."
+          they_will_not_be_notified_automatically: ~
+      invitations:
+        invitations: Покани
+        used:
+          "yes": Да
+          "no": Не
+        headers:
+          sent_by: "Изпратено от"
+          message: Съобщение
+          sent_to: "Изпратено до"
+          used: Използвано
+          date_sent: "Дата на изпращане"
+      listings:
+        listings: ~
+        search_by_title_author_category: ~
+        search: ~
+        reset_search: ~
+        export_all_as_csv: ~
+        processing_export: ~
+        status:
+          all: ~
+          selected_js: ~
+          open: ~
+          closed: ~
+          expired: ~
+          approval_pending: ~
+          approval_rejected: ~
+        headers:
+          title: ~
+          author: ~
+          created: ~
+          updated: ~
+          category: ~
+          status: ~
+        open: ~
+        closed: ~
+        expired: ~
+        approved: ~
+        approval_pending: ~
+        approval_rejected: ~
+        form:
+          this_listing_has_not_not_been_approved_yet: ~
+          approve: ~
+          reject: ~
+          cancel: ~
+      user_fields:
+        user_fields: ~
+      footer:
+        footer: ~
+        offer_pro: ~
+        upgrade_plan_link: ~
+        menu_links: ~
+        language: ~
+        title: ~
+        url: ~
+        add: ~
+        save: ~
+        footer_style: ~
+        footer_copyright: ~
+        footer_enabled: ~
+        social_links: ~
+        title_placeholder: "Заглавие на линк"
+        url_placeholder: "http://example.com/username"
+        style:
+          dark: ~
+          light: ~
+          marketplace_color: "Цвят на твоята страница"
+          logo: Лого
+        social:
+          title: ~
+          url: ~
+      domain:
+        domain: Домейн
+        marketplace_domain: "Домейн на платформата"
+        offer_pro: "Персонализирай своя домейн тук %{upgrade_pro_plan_link}"
+        upgrade_pro_plan_link: "Премини към Pro или по-висок план"
+        your_marketplace_address_is: "Адресът на твоята платформа е: %{address}"
+        would_you_like_to_change_address: "Би ли желал да промениш адреса на своята платформа? %{contact_us}"
+        contact_us: "Свържете се с нас"
+        you_can_now_use_a_custom_domain: "С твоя сегашен план можеш да въведеш персонализиран домейн. Да минем към неговата настройка. %{contact_us}"
+        would_you_like_to_change_domain: "Би ли желал да промениш своя персонализиран домейн към платформата? %{contact_us}"
+        change_your_sharetribe_domain: ~
+        only_letters_numbers_and_hyphens_can_be_used: ~
+        when_you_change_your_sharetribe_domain: ~
+        would_you_like_to_proceed: ~
+        change: ~
+      landing_pages:
+        landing_pages: ~
+        info_1: ~
+        info_2: ~
+        info_2_help_center: ~
+        info_3: ~
+        info_4: ~
+        editor_title: ~
+        editor_info: ~
+        preview: ~
+        set_live: ~
+        add_new_section: ~
+        select_section_type: ~
+        this_version_is_not_released: ~
+        latest_version_released: ~
+        check_it_out: ~
+        form:
+          save: ~
+          cancel: ~
+        sections:
+          identifier: ~
+          kind: ~
+          new: ~
+          edit: ~
+          remove_section_confirmation: ~
+          info_single_column: ~
+          info_multi_column_2: ~
+          info_multi_column_3: ~
+          listings: ~
+          categories: ~
+          hero: ~
+          locations: Местоположения
+          video: ~
+          new_section:
+            categories: ~
+            info_single_column: ~
+            info_multi_column_2: ~
+            info_multi_column_3: ~
+            listings: ~
+            locations: ~
+            video: ~
+          edit_section:
+            categories: ~
+            footer: ~
+            hero: ~
+            info_single_column: ~
+            info_multi_column_2: ~
+            info_multi_column_3: ~
+            listings: ~
+            locations: ~
+            video: ~
+      attachments:
+        delete: ~
+        or_change: ~
+    landing_page_versions:
+      sections:
+        content:
+          title: ~
+        hero:
+          hero_title: ~
+          hero_description: ~
+          basic_details_tab: ~
+          cta_button: ~
+          cta_button_info: ~
+          button_type:
+            default: ~
+            button: ~
+            none: ~
+          button_content: ~
+          click_me: ~
+        footer:
+          footer_title: ~
+          footer_style: ~
+          style_dark: ~
+          style_light: ~
+          style_marketplace_color: ~
+          style_logo: ~
+        cta_button:
+          cta_button: ~
+          cta_enabled: ~
+          cta_text: ~
+          cta_url: ~
+          text_placeholder: ~
+          url_placeholder: ~
+        background_selector:
+          title: ~
+        background_image_overlay:
+          background_image: ~
+          background_image_info: ~
+          add_another_image: ~
+          current_image: ~
+          file_not_selected: ~
+          background_image_overlay: ~
+          background_image_overlay_info: ~
+          overlay_dark: ~
+          overlay_light: ~
+          overlay_transparent: ~
+        background_style:
+          background_style: ~
+          style_image: ~
+          style_color: ~
+          style_none: ~
+        background_color:
+          background_color: ~
+          background_color_info: ~
+        categories:
+          add: ~
+          category: ~
+          empty: ~
+          image: ~
+          include_title: ~
+          info_text: ~
+          need_at_least_3_categories: ~
+          need_at_most_7_categories: ~
+        category:
+          add_another_image: ~
+          category: ~
+          current_image: ~
+          file_not_selected: ~
+          image: ~
+          image_required: ~
+          select_category: "Избери категория"
+        locations:
+          add: ~
+          location: ~
+          empty: ~
+          image: ~
+          include_title: ~
+          info_text: ~
+          need_at_least_3_locations: ~
+          need_at_most_7_locations: ~
+        location:
+          add_another_image: ~
+          location: ~
+          current_image: ~
+          file_not_selected: ~
+          image: ~
+          image_required: ~
+          title: ~
+          title_placeholder: ~
+          url: ~
+          url_placeholder: ~
+        multi_column:
+          main_title: ~
+          column_header: ~
+          column_title: ~
+          column_icon_info: ~
+          column_icon_info_link: ~
+          column_icon: ~
+          column_paragraph: ~
+          column_button: ~
+          column_button_text: ~
+          column_button_url: ~
+        listings:
+          listings_to_feature: ~
+          you_need_to_add_the_listing_ids: ~
+        video:
+          text: ~
+          autoplay: ~
+          autoplay_no: ~
+          autoplay_muted: ~
+          info: ~
+          youtube_video_id_info: ~
+    custom_fields:
+      edit:
+        edit_listing_field: "Редактиране на полето за регистрация '%{field_name}'"
+      edit_price:
+        description: ~
+        edit_price_field: "Редактиране на полето за обяви „Цена“"
+        show_price_filter_homepage: ~
+        price_min: ~
+        price_max: ~
+      edit_location:
+        edit_location_field: "Редактиране на полето за регистрация „Местоположение“"
+        this_field_is_required: ~
+        the_location_feature_can_be_enabled: ~
+      edit_expiration:
+        edit_expiration_field: "Редактиране на полето за обява „Дата на изтичане“"
+        enable: ~
+      form:
+        field_required:
+          this_field_is_required: ~
+          this_field_is_required_checkbox: ~
+        search_filter:
+          search_filter: ~
+          date_cant_be_filtered: ~
+          text_cant_be_filtered: ~
+      index:
+        listing_fields: ~
+        listing_fields_help: ~
+        add_new_field: ~
+        remove_field_confirmation: ~
+        cancel: ~
+        save: ~
+        field_title: ~
+        field_type: ~
+        categories: ~
+        select_all: ~
+        clear_all: ~
+        options: ~
+        add_option: ~
+        saving_order: ~
+        save_order_successful: ~
+        save_order_error: ~
+        select_one: ~
+        continue: ~
+        minimum_value: ~
+        maximum_value: ~
+        allow_decimals: ~
+      new:
+        new_listing_field: ~
+      field_types:
+        text: ~
+        number: ~
+        dropdown: ~
+        checkbox_group: ~
+        date: ~
+        file: ~
+        location: Mестоположение
+    person_custom_fields:
+      saving_failed: ~
+      index:
+        user_fields: ~
+        field_title: ~
+        field_type: ~
+        signup: Регистация
+        public: Публично
+        add_new_field: ~
+        save: ~
+        cancel: ~
+        minimum_value: ~
+        maximum_value: ~
+        allow_decimals: ~
+        add_option: ~
+      new:
+        new_user_field: ~
+      form:
+        field_required:
+          this_field_is_required: ~
+          this_field_is_required_checkbox: ~
+          this_field_is_public: ~
+      edit:
+        edit_user_field: ~
+    emails:
+      new:
+        send_email_to_members: "имейл на потребител"
+        send_email_to_members_title: "Изпратете имейл до потребителите си"
+        send_email: "Изпратете имейла"
+        send_email_or: ~
+        send_test_email: ~
+        test_sent: "Тестовият имейл беше изпратен до вашата пощенска кутия"
+        send_email_article_title: ~
+        send_email_article_text: ~
+        recipients:
+          title: ~
+          options:
+            all_users: ~
+            posting_allowed: "Потребители които имат позволение да публикуват обяви"
+            with_listing: ~
+            with_listing_no_payment: ~
+            with_payment_no_listing: ~
+            no_listing_no_payment: ~
+        email_subject: "Тема на имейла"
+        email_content: "Съдържание по имейл"
+        email_content_placeholder: "Какво искате да кажете на потребителите си?"
+        email_language: "Език на получателите на имейли"
+        any_language: "всички езици"
+        message_will_be_sent_only_to_people_with_this_language: "Имейлът ще бъде изпратен само на потребителите, които използват %{service_name} на избрания от вас език."
+        email_sent: "Имейлът е изпратен."
+        to_improve_email_deliverability: ~
+        email_subject_text: ~
+        firstname_cannot_be_removed: ~
+        hello_firstname: ~
+        hello_firstname_text: ~
+    left_hand_navigation:
+      general: ~
+      users_and_transactions: ~
+      configure: ~
+      emails_title: ~
+      subscription: Aбонамент
+      preview: ~
+      whats_new: ~
+    listing_shapes:
+      availability_title: ~
+      read_more: ~
+      read_more_availability_management: ~
+      allow_providers_to_manage_availability: ~
+      per_hour_availability: ~
+      per_day_availability: ~
+      per_night_availability: ~
+      pricing_units_disabled_info: ~
+      can_not_find_name: ~
+      index:
+        listing_shapes: ~
+        description: ~
+        read_more_about_order_types: ~
+        add_new_shape: ~
+        select_template: ~
+        all_categories: "Всички категории"
+        no_categories: ~
+        category_count: ~
+        header:
+          listing_shape_name: ~
+          listing_shape_categories: ~
+        order:
+          saving_order: ~
+          save_order_successful: ~
+          save_order_error: ~
+      templates:
+        selling_products: ~
+        renting_products: ~
+        offering_services: "Предлагане на услуги"
+        giving_things_away: ~
+        requesting: Търсещи
+        announcement: ~
+        custom: ~
+      new:
+        create_listing_shape: ~
+        create: ~
+        cancel: ~
+        create_success: ~
+        create_failure: ~
+      edit:
+        edit_listing_shape: ~
+        update: ~
+        cancel: ~
+        update_success: ~
+        update_failure: ~
+        delete: ~
+        can_not_delete_last: ~
+        can_not_delete_only_one_in_categories: ~
+      listing_shape_name: ~
+      listing_shape_name_placeholder: ~
+      action_button_label: "Заглавие на бутона за поръчка"
+      action_button_placeholder: "Т.е. Купи"
+      open_listings_warning:
+        one: "Има %{count} отворена обява с този тип поръчка. Ако промените някоя от настройките по-долу, тази обява ще запази старите настройки. Обявата може да бъде променена с новите настройки, като я редактирате ръчно. Ако не искате обява със старите настройки да е видима на вашия сайт, можете да я затворите, като щракнете върху бутона по-долу."
+        other: "Има %{count} отворена обява с този тип поръчка. Ако промените някоя от настройките по-долу, тази обявя ще запази старите настройки. Тази обява може да бъде променена с новите настройки, като я редактирате ръчно. Ако не искате да имате никакви обяви със старите настройки, видими на вашия сайт, можете да ги затворите, като щракнете върху бутона по-долу."
+      successfully_closed: ~
+      successfully_deleted: ~
+      pricing_and_checkout_title: ~
+      online_payments_label: ~
+      shipping_label: ~
+      price_label: ~
+      units_title: ~
+      units_desc: ~
+      units:
+        piece: "за парче"
+        hour: "За час"
+        day: "На ден"
+        night: "За нощ"
+        week: "За седмица"
+        month: "За месец"
+        unit: "За единица"
+      can_not_find: ~
+      add_custom_unit: ~
+      delete_custom_unit: ~
+      custom_unit_form:
+        title: ~
+        label_heading: ~
+        selector_label_heading: ~
+        label_placeholder: ~
+        selector_placeholder: ~
+        per: ~
+        unit_type:
+          heading: ~
+          quantity_label: "Количество(за парче, за кг, за човек, за 2 часа тур..  )"
+          time_label: "Време(за 30 минути, за 2 седмици, за година...)"
+    paypal_accounts:
+      marketplace_paypal_integration: ~
+      preferences_updated: ~
+      contact_support_link_text: ~
+      integration_info_text: ~
+      link_paypal_personal_account_label: ~
+      link_paypal_personal_account: ~
+      link_stripe_personal_account: ~
+      link_paypal_and_stripe_personal_account: ~
+      personal_payment_preferences_link_text: ~
+      read_more_about_paypal: ~
+      edit_payment_settings: ~
+      supported_currencies_information_text: ~
+      currency_change_warning_text: ~
+      marketplace_currency_label: ~
+      minimum_listing_price_label: ~
+      transaction_fee_label: ~
+      minimum_transaction_fee_label: ~
+      save_settings: ~
+      minimum_listing_price_below_tx_fee: ~
+      minimum_listing_price_below_min: ~
+    payment_preferences:
+      title: ~
+      general_settings: ~
+      connect_a_payment_provider: ~
+      contact_support: ~
+      no_payments_link_text: ~
+      your_country: ~
+      you_cannot_use_online_payments: ~
+      which_to_choose: ~
+      you_can_use_stripe_or_paypal: ~
+      you_can_use_stripe_only: ~
+      read_more_stripe: ~
+      you_can_use_paypal_only: ~
+      read_more_paypal: ~
+      read_more_about_paypal_and_stripe: ~
+      general_settings_updated: ~
+      transaction_fee_settings_updated: ~
+      choose_popup_text: ~
+      invalid_api_keys: ~
+      missing_api_keys: ~
+      stripe_verified: ~
+      change_settings: ~
+      configure_stripe: ~
+      configure_paypal: ~
+      transaction_fee_settings: ~
+      transaction_fee_save: ~
+      stripe_fee: ~
+      stripe_fee_notice: ~
+      fee_should_be_less_than_minimum_price: ~
+      the_transaction_fee_must_be_lower_than_100: ~
+      confirm_disable: ~
+      commission_from_buyer_label: ~
+      minimum_buyer_transaction_fee_label: ~
+      stripe_connected:
+        title: ~
+        disable: ~
+        disabled: ~
+        enable: ~
+      paypal_connected:
+        title: ~
+        disable: ~
+        disabled: ~
+        enable: ~
+      cannot_enable_gateway: ~
+      cannot_disable_gateway: ~
+      cannot_enable_gateway_because_of_buyer_commission: ~
+      stripe_form:
+        add_your_api_keys: ~
+        how_to_get_these: ~
+        publishable_key_example: ~
+        secret_key_example: ~
+        save_api_keys: ~
+        invalid_secret: ~
+        invalid_publishable: ~
+      index:
+        header: ~
+        info: ~
+        active: ~
+        gateway: ~
+        process: ~
+        commission: ~
+        minimum_price: ~
+        minimum_fee: ~
+        api_verified: ~
+        actions: ~
+        payments_not_enabled: ~
+    transaction_types:
+      sell: ~
+      sell_w_online_payment: ~
+      sell_wo_online_payment: ~
+      rent: ~
+      rent_w_online_payment: ~
+      rent_wo_online_payment: ~
+      give: ~
+      lend: ~
+      swap: ~
+      service: Предлагащи
+      service_w_online_payment: "Предлагане с онлайн плащане"
+      service_wo_online_payment: "Предлагане без онлайн плащане"
+      request: Търсещи
+      inquiry: ~
+      share_for_free: ~
+      event_w_online_payment: ~
+      event_wo_online_payment: ~
+      default_action_button_labels:
+        sell: Купи
+        rent: Наеми
+        request: Оферирай
+        offer: Заяви
+        inquiry: "Свържи се"
+        book: ~
+    community_transactions:
+      show:
+        transaction_for: ~
+        status: ~
+        next_step: ~
+        waiting_for_provider_accept_or_reject: ~
+        waiting_for_fulfill_and_complete: ~
+        buyer: ~
+        provider: ~
+        delivery: ~
+        shipping_to: ~
+        buyer_pays: ~
+        marketplace_collects: ~
+        buyer_service_fee_label: ~
+        service_fee_label: ~
+        provider_receives: ~
+        admin_info_text: ~
+        manage_reviews: ~
+        you_should_investigate: ~
+        learn_more: ~
+  common:
+    edit_page: "Редактиране на страницата"
+    default_community_slogan: ~
+    default_community_description: "Това е място за продажба, отдаване под наем, замяна и споделяне на стоки и услуги с останалите членове на пазара."
+    cancel: Отказ
+    fields_that_are_mandatory: "Полетата маркирани със звезда (*) са задължителни."
+    or: или
+    password: Парола
+    service_name: "%{service_name}"
+    share_types:
+      request: поискване
+      offer: оферта
+      borrow: отдаване
+      buy: купуване
+      give_away: отдаване
+      lend: заемане
+      receive: "безплатно вземане"
+      rent: отдаване
+      rent_out: "отдаване под наем"
+      sell: продаване
+      offer_to_swap: размяна
+      request_to_swap: размяна
+      share_for_free: "споделяне безплатно"
+      accept_for_free: "желаещи да използват безплатно"
+    categories:
+      item: Предмети
+      favor: Услуги
+      rideshare: ~
+      housing: ~
+      tools: Инструменти
+      sports: ~
+      music: ~
+      books: ~
+      games: "Игри и играчки"
+      furniture: Мебели
+      outdoors: ~
+      food: "Храна и кухня"
+      electronics: електроника
+      pets: "Домашни любимци и животни"
+      film: "Филми и видеоклипове"
+      clothes: "Дрехи и аксесоари"
+      garden: градина
+      travel: пътуване
+      other: друг
+    username: Потребител
+    username_or_email: Имейл
+    what_is_this: "Какво е това?"
+    removed_user: ~
+    payment_fee_info:
+      title: ~
+      stripe: ~
+      paypal: ~
+      info: ~
+    paypal_fee_info:
+      title: ~
+      body_text: |-
+          За плащания чрез PayPal, %{service_name}  начислява комисионна от %{paypal_commission} %. Минималната такса за транзакция е %{minimum_transaction_fee} . Таксите на PayPal не са включени в тази комисионна, така че освен %{service_name} } комисионна, вие ще плащате и таксите на PayPal за всяка. Таксата на PayPal е между 2% и 5% от общата цена на продажбите, в зависимост от месечния ви обем на продажбите и държавата на пребиваване на купувача. По принцип вътрешните покупки имат по-ниски такси от международните, а по-високите месечни продажби ви дават отстъпка от таксите.
+          Можете да видите точните такси, като влезете в акаунта си в PayPal и отидете на %{link_to_paypal} . След всяка покупка ще получите разписка, показваща точната такса.
+      body_text_accept: ~
+      link_to_paypal_text: ~
+    stripe_fee_info:
+      title: ~
+      body_text: ~
+      link_to_stripe_text: ~
+  conversations:
+    accept:
+      details: ~
+      order_by: ~
+      accept_offer: "Приемете офертата"
+      accept_request: "Приемете молбата"
+      reject_offer: "Не този път"
+      reject_request: "Не този път"
+      close_listing: ~
+      update_later: ~
+      optional_message: ~
+      price_to_pay: "Обща цена за плащане"
+      accept: ~
+      decline: Отказ
+      quantity_label: ~
+      sum_label: ~
+      service_fee_label: ~
+      buyer_service_fee_label: ~
+      you_will_get_label: ~
+      total_label: ~
+      total_value: ~
+      total_value_paypal: ~
+      total_value_stripe: ~
+      paypal_fee: ~
+      paypal_fee_info: ~
+      shipping_price_label: "Доставка:"
+      stripe-fee_label: ~
+    confirm:
+      confirm_description: "Ако вашата поръчка е изпълнена, трябва да я потвърдите като извършена. След това можете да дадете обратна връзка на другата страна."
+      cancel_description_team: ~
+      cancel_payed_description: "Ако заявката ви беше приета, но имате мисли за второ, все още можете да я отмените преди плащането."
+      canceling_payed_transaction: ~
+      confirm: ~
+      cancel: ~
+      continue: ~
+      give_feedback_to: ~
+      do_not_give_feedback: ~
+    details:
+      day: ~
+      days: ~
+      price_per_day: "Цена за ден: %{price}"
+    index:
+      loading_more_messages: "Зареди повече съобщения"
+      message_partitive: съобщение
+      messages_partitive: съобщения
+      no_received_messages: "Няма съобщения"
+      no_sent_messages: "Няма изпратени съобщения"
+    conversation:
+      accepted_request: ~
+      accepted_offer: ~
+      rejected_request: ~
+      rejected_offer: ~
+      confirmed_request: ~
+      confirmed_offer: ~
+      canceled_request: ~
+      canceled_offer: ~
+      message_from: ~
+      about_listing: ~
+      free_message: ~
+      message_content_not_available: ~
+    message:
+      accepted_request: ~
+      received_payment: ~
+      received_payment_wo_sum: ~
+      accepted_offer: ~
+      rejected_request: ~
+      rejected_offer: ~
+      confirmed_request: ~
+      confirmed_offer: ~
+      canceled_request: ~
+      canceled_offer: ~
+      paid: ~
+      payment_preauthorized: ~
+      payment_preauthorized_wo_sum: ~
+      stripe:
+        held_payment: ~
+        held_payment_wo_sum: ~
+        confirmed_request: ~
+      canceled_the_order: ~
+      marked_as_refunded: ~
+      dismissed_the_cancellation: ~
+      payment_has_now_been_transferred: ~
+    new:
+      message: Съобщение
+      message_to: ~
+      optional_message_to: ~
+      send_message: "Изпрати съобщение"
+      send: ~
+      this_message_is_private: "Това съобщение е частно между вас и %{person}. %{person} ще бъде уведомен за това съобщение по имейл."
+      you_will_get_notified_of_acceptance: "Ще получите известие по имейл, когато %{person} приеме или отхвърли предложението ви."
+      you_will_get_notified: "Ще получите известие по имейл, когато %{person} ви отговори."
+      title: Заглавие
+      send_message_to_user: "Изпрати съобщение на %{person}"
+      about_listing: ~
+      author_has_to_accept_request: "%{author_name} трябва да приеме заявката, преди да можете да платите"
+    show:
+      in_response_to_listing: ~
+      message_sent_by: "Съобщение, изпратено от"
+      message_sent_to: "Съобщение изпратено до"
+      send_reply: "Изпрати отговор"
+      write_a_reply: "Напиши отговор:"
+      conversation_about_listing: "С %{person} около %{listing}"
+      conversation_with_user: "С %{person}"
+      conversation_with: "Разговор с %{person}"
+      last_message_at: "(последно съобщение %{time})"
+      price: "Цена: %{price}"
+      sum: ~
+      total: ~
+    status:
+      payment_errored: ~
+      payment_errored_starter: ~
+      payment_errored_author: ~
+      cancel_payed_transaction: ~
+      feedback_given: "Оценката е изпратена"
+      feedback_skipped: "Оценката е отказана"
+      give_feedback: "Напиши оценка"
+      offer_accepted: Приета
+      offer_rejected: Отхвърлена
+      offer_canceled: ~
+      offer_confirmed: ~
+      offer_paid: ~
+      offer_preauthorized: ~
+      offer_waiting_for_payment: ~
+      pay: ~
+      preauthorized: ~
+      paid: ~
+      pending_external:
+        paypal:
+          multicurrency: ~
+          verify: "Не можете да приемете тази транзакция, защото не сте потвърдили вашия PayPal акаунт. Отидете на %{paypal_url}, за да потвърдите акаунта си."
+          intl: ~
+      waiting_for_current_user_to_deliver_listing: ~
+      waiting_for_listing_author_to_deliver_listing: ~
+      request_accepted: Прието
+      request_rejected: Отхвърлено
+      request_confirmed: ~
+      request_canceled: ~
+      request_paid: ~
+      request_preauthorized: ~
+      skip_feedback: "Откажи оценяването"
+      waiting_for_listing_author_to_accept_offer: ~
+      waiting_for_listing_author_to_accept_request: ~
+      waiting_for_you_to_accept_request: ~
+      waiting_confirmation_from_requester: ~
+      waiting_confirmation_from_you: ~
+      waiting_payment_from_requester: ~
+      waiting_payment_from_you: ~
+      waiting_feedback_from_you: ~
+      pending_external_inbox:
+        paypal:
+          multicurrency: "Чакам да приемете плащането чрез PayPal"
+          intl: "Чакам да приемете плащането чрез PayPal"
+          unknown_reason: "Плащането е в очакване. Влезте в акаунта си в PayPal, за да видите повече подробности"
+          verify: "Чакам да потвърдите вашия PayPal акаунт"
+      stripe:
+        waiting_confirmation_from_requester: ~
+      order_canceled: ~
+      waiting_for_marketplace_review: ~
+      marketplace_notified: ~
+      contact_them: ~
+      refunded: ~
+      dismissed: ~
+      order_refunded: ~
+      you_should_receive_refund_soon: ~
+      issue_with_the_refund: ~
+      do_you_disagree: ~
+      contact_the_marketpalce_team: ~
+      order_cancellation_dismissed: ~
+    status_link:
+      accept_offer: "Приемане на офертата"
+      accept_request: "Приемане на поканата"
+      reject_offer: "Този път не"
+      reject_request: "Този път не"
+      accept_preauthorized_offer: ~
+      accept_preauthorized_request: ~
+      reject_preauthorized_offer: ~
+      reject_preauthorized_request: ~
+      confirm: ~
+      cancel: ~
+      mark_as_refunded: ~
+      dismiss: ~
+  feedback:
+    feedback_subject: ~
+    feedback_body: ~
+    unlogged_user: ~
+    anonymous_user: ~
+  community_memberships:
+    access_denied:
+      access_denied: ~
+      you_are_banned_in_this_community: "Екипът на %{service_name} деактивира вашия акаунт. Ако искате да изпратите съобщение на екипа на %{service_name}, можете да %{link_to_contact_page}."
+      contact_page_link: ~
+    new:
+      welcome_fb_user: "Добре дошли в %{service_name}, %{name}"
+      fb_join_accept_terms: "Има още една стъпка, за да се присъедините към %{service_name}: трябва да приемете условията за ползване."
+      join_community: "Присъединяване %{service_name}"
+      you_can_join: "Можете да се присъедините към %{service_name}, като приемете условията за ползване и кликнете по-долу „Присъединете се към %{service_name}“."
+      you_can_join_email_confirmation: "За да се присъедините към %{service_name}, трябва да имате валиден имейл адрес, който завършва с %{email_ending}. Можете да се присъедините, като попълните имейл адреса си, приемете условията за ползване и щракнете върху „Присъединете се %{service_name}“ по-долу и потвърдете имейла си."
+      you_can_join_email_confirmation_multiple_addresses: "%{service_name} има ограничения за имейл. Можете да се присъедините само ако имате разрешен имейл адрес. Можете да се присъедините, като попълните имейл адреса си, приемете условията за ползване на %{service_name} и кликнете върху „Присъединяване на %{service_name}“ по-долу."
+      you_can_join_with_invite_only: "Трябва да имате покана от друг член, за да се присъедините към %{service_name}. Ако имате код на покана, можете да се присъедините, като напишете кода в полето по-долу, приемете условията за ползване и кликнете по-долу „Присъединете се %{service_name}“."
+      if_want_to_view_content: "Ако искате да видите съдържанието в %{service_name}, без да го присъедините  като член"
+      log_out: Изход
+      join_community_button: "Присъединете се към %{service_name}"
+    give_consent:
+      invitation_code_invalid_or_used: ~
+      email_not_allowed: ~
+      email_not_available: ~
+      consent_not_given: ~
+  emails:
+    accept_reminder:
+      remember_to_accept_offer: "Не забравяйте да приемете или отхвърлите предложението от %{sender_name}"
+      remember_to_accept_request: "Не забравяйте да приемете или отхвърлите запитването от %{sender_name}"
+      you_can_accept_or_reject_offer_at: "Можете да приемете или отхвърлите предложението до"
+      you_can_accept_or_reject_request_at: "Можете да приемете или отхвърлите запитването до"
+      you_have_not_yet_accepted_or_rejected_offer: "Още не сте приели или отхвърлили предложението %{title} , което получихте %{date}."
+      you_have_not_yet_accepted_or_rejected_request: "Още не сте приели или отхвърлили запитването %{title} , което получихте %{date}."
+      show_thread: ~
+    branding:
+      powered_by: ~
+      create_own: ~
+      learn_more: ~
+    confirm_reminder:
+      you_have_not_yet_confirmed_or_canceled_request: "Все още не сте изпълнили или оспорили поръчката %{request_link}. Ако поръчката е приключила, трябва да потвърдите това. След това можете да дадете обратна връзка на %{other_party_given_name}."
+      remember_to_confirm_request: ~
+      if_will_not_happen_you_should_cancel: "Ако смятате, че тази поръчка няма да бъде завършена по една или друга причина, можете да %{cancel_it_link}."
+      cancel_it_link_text: ~
+      automatic_confirmation: ~
+    confirm_reminder_v2:
+      headline: ~
+      you_have_not_yet_confirmed_or_canceled_request: ~
+    payment_settings_reminder:
+      remember_to_add_payment_details: ~
+      you_have_added_listing_with_payment: ~
+      please_go_to_payment_settings: ~
+      payment_settings_link: ~
+    payment_settings_reminder_v2:
+      fill_payout_details: ~
+      you_have_added_listing_with_payment: ~
+    transaction_confirmed:
+      here_is_a_message_from: ~
+      request_marked_as_confirmed: ~
+      request_marked_as_canceled: ~
+      has_marked_request_as_confirmed: "%{other_party_full_name} маркира поръчката за „%{request}“ завършена. Вече можете да дадете обратна връзка на %{other_party_given_name}."
+      has_marked_request_as_canceled: "%{other_party_full_name} оспори поръчката за „%{request}“. Все още можете да дадете обратна връзка на %{other_party_given_name}."
+      giving_feedback_is_good_idea: ~
+      give_feedback_to: ~
+      stripe:
+        has_marked_request_as_confirmed: ~
+      team_title: ~
+    transaction_confirmed_v2:
+      headline_confirmed: ~
+      headline_canceled: ~
+      stripe:
+        has_marked_request_as_confirmed: ~
+      can_give_feedback: ~
+      team_title: ~
+    transaction_automatically_confirmed:
+      subject: ~
+      we_have_marked_request_as_confirmed: ~
+    transaction_automatically_confirmed_v2:
+      we_have_marked_request_as_confirmed: ~
+      order_automatically_confirmed: ~
+    booking_transaction_automatically_confirmed:
+      subject: ~
+      we_have_marked_request_as_confirmed: ~
+    booking_transaction_automatically_confirmed_v2:
+      order_automatically_confirmed: ~
+    automatically_confirmed_footer:
+      giving_feedback_is_good_idea: "Вече можете да дадете обратна връзка на %{other_party_given_name}. Даването на обратна връзка винаги е добра идея. Ако всичко вървеше добре, трябва да уведомите другите, че на %{other_party_given_name} може да се вярва. Ако имаше някакви проблеми, добре е да споменем и тези."
+      give_feedback_to: ~
+      show_thread: ~
+    confirmation_instructions:
+      confirmation_instructions_signature: "С най-добри пожелания, <br/> Екипът на %{service_name}"
+      need_to_confirm: "За да се присъедините към %{service_name}, потвърдете имейл адреса си, като кликнете бутона по-долу."
+      confirmation_link_text: "Потвърдете моя адрес"
+      or_paste_link: "Освен това можете да копирате следната връзка в адресната лента на браузъра си:"
+    confirmation_instructions_v2:
+      headline: ~
+      need_to_confirm: ~
+      confirmation_link_text: ~
+    common:
+      hey: "Здравейте %{name},"
+      hi: "Здравей %{name},"
+      kassi_team: "Екипът на %{service_name}"
+      thanks: "Благодаря,"
+      dont_want_to_receive_these_emails: "Не искате да получавате тези имейли?"
+      edit_your_email_settings_here: "Редактирайте настройките си за имейл тук"
+      message_not_displaying_correctly: "Този имейл не се показва правилно?"
+      view_it_in_your_browser: "Вижте го в браузъра си"
+      or: или
+      unsubscribe_from_these_emails_info: ~
+      unsubscribe_from_these_emails: "отпишете се от тези имейли"
+      unsubscribe_from_invitation_emails_info: ~
+      unsubscribe_from_invitation_emails: ~
+      here_is_your_receipt: ~
+    conversation_status_changed:
+      has_accepted_your_offer: "%{accepter} прие вашата оферта за %{listing}."
+      has_accepted_your_request: "%{accepter} прие вашата заявка за %{listing}."
+      has_rejected_your_offer: "%{accepter} отхвърли вашата оферта за %{listing}."
+      has_rejected_your_request: "%{accepter} отхвърли вашата заявка за %{listing}."
+      view_thread: ~
+      your_offer_was_accepted: "Вашата оферта беше приета."
+      your_offer_was_rejected: "Вашата оферта беше отхвърлена."
+      your_request_was_accepted: "Вашата заявка беше приета."
+      your_request_was_rejected: "Вашата заявка беше отхвърлена."
+      you_can_now_pay_to: "Вече можете да платите исканата сума до %{payment_receiver}."
+      pay_now: "Плати сега"
+      remember_to_confirm: ~
+    conversation_status_changed_v2:
+      has_accepted_your_request: ~
+      has_accepted_your_request_text: ~
+      has_rejected_your_request: ~
+      has_rejected_your_request_text: ~
+    invitation_to_kassi:
+      hi: Здравей
+      you_have_been_invited_to_kassi: "%{inviter} ви покани на %{service_name}."
+      here_is_a_message_from: "Това лично съобщение от %{inviter}:"
+      join_now: ~
+      invitation_code: ~
+    invitation_to_kassi_v2:
+      headline: Здравей!
+    new_comment:
+      has_commented_your_listing_in_kassi: ~
+      view_comment: ~
+      you_have_a_new_comment: "%{author}  ви остави коментар в %{service_name}"
+      listing_you_follow_has_a_new_comment: "%{author} коментира обява, която следвате в%{service_name}"
+      has_commented_listing_you_follow_in_kassi: ~
+    new_message:
+      view_message: ~
+      has_sent_you_a_message_in_kassi: "%{sender} Ви изпрати съобщение в %{service_name}."
+      you_have_a_new_message: "Имате ново съобщение в %{service_name} от %{sender_name}."
+    new_message_v2:
+      headline: ~
+      reply: ~
+    new_payment:
+      new_payment: ~
+      price_per_unit_type: "Цена за %{unit_type}"
+      quantity: ~
+      you_have_received_new_payment: ~
+      listing_per_unit_title: ~
+    payment_receipt_to_seller:
+      payment_gateway_fee: ~
+      shipping_total: ~
+      product: ~
+      price_payer_paid: "Цена %{payer_full_name} платена:"
+      subtotal: ~
+      service_fee: ~
+      buyer_service_fee: ~
+      you_will_get: ~
+      new_payment: ~
+      price_per_unit_type: "Цена за %{unit_type}"
+      quantity: ~
+      you_have_received_new_payment: ~
+      stripe:
+        you_have_received_new_payment: ~
+    payment_receipt_to_seller_v2:
+      headline: ~
+      main_text_stripe: ~
+      price_breakdown: ~
+    payment_receipt_to_payer:
+      receipt_of_payment: ~
+      you_have_made_new_payment: ~
+      product: ~
+      price_per_unit_type: "Цена за %{unit_type}"
+      duration: ~
+      quantity: ~
+      subtotal: ~
+      buyer_service_fee: ~
+      total: ~
+      price: Цена
+      service_fee: ~
+      stripe_gateway_fee: ~
+      paypal_gateway_fee: ~
+      money_will_be_transferred: ~
+    payment_receipt_to_payer_v2:
+      headline: ~
+      you_have_made_new_payment: ~
+    paypal_new_payment:
+      paypal_gateway_fee: ~
+      shipping_total: ~
+    braintree_new_payment:
+      product: ~
+      price_payer_paid: ~
+      service_fee: ~
+      you_will_get: ~
+    receipt_to_payer:
+      receipt_of_payment: ~
+      you_have_made_new_payment: ~
+      product: ~
+      price_per_unit_type: "Цена за %{unit_type}"
+      duration: ~
+      quantity: ~
+      subtotal: ~
+      total: ~
+      price: Цена
+      buyer_service_fee: ~
+      stripe_gateway_fee: ~
+      paypal_gateway_fee: ~
+      money_will_be_transferred: ~
+      listing_per_unit_title: ~
+      stripe:
+        you_have_made_new_payment: ~
+    new_testimonial:
+      has_given_you_feedback_in_kassi: "%{name} Ви оцени в %{service_name}."
+      you_can_give_feedback_to: "Все още не сте оценили %{name}."
+      view_feedback: ~
+    new_testimonial_v2:
+      headline: ~
+    new_update_to_listing:
+      listing_you_follow_has_been_updated: "Списъкът, който следвате, е актуализиран"
+      has_updated_listing_you_follow_in_kassi: ~
+      view_changes: ~
+    community_updates:
+      added_offer: "%{name_link} добави обява:"
+      added_request: "%{name_link} добави обява:"
+      added_listing: "%{name_link} добави обява:"
+      update_mail_title: "%{title_link} актуализация"
+      title_link_text: "%{community_name}"
+      intro_paragraph: "Ето някои неща, които се случиха на %{community_link} през изминалия %{time_since_last_update}."
+      intro_paragraph_link_text: "%{community_name}"
+      reduce_email_footer_text: ~
+      settings_link_text: "Редактирайте настройките си за имейл тук"
+      unsubscribe_link_text: отписване
+    community_updates_v2:
+      headline: "Проверете последната активност на %{service_name}."
+      intro_paragraph:
+        one: "Виж събития, случили се на %{service_name} за последния ден."
+        other: "Виж събития, случили се на %{service_name} през последните %{count} дни."
+    newsletter:
+      hi: "Здравей %{name},"
+      newest_offers: "Какво хората предлагат в момента на другите"
+      newest_requests: "От какво се нуждаят хората в момента"
+      text_version_text: "Ако имате информация която е полезна за други, споделите. Или имате нужда за това, което имат други? Добавете своята оферта или проверете това което предлагат и търсят други %{url}"
+    reset_password_instructions:
+      change_my_password: "Промяна на паролата"
+      reset_password_instructions: ~
+    testimonial_reminder:
+      remember_to_give_feedback_to: "Напомняне: Оставете оценка на %{name}."
+      you_have_not_given_feedback_yet: "Още не сте дали обратна връзка на %{name} за събитието \"%{event}\". Не забравяйте да дадете обратна връзка за това, как %{given_name} е провел събитието."
+    testimonial_reminder_v2:
+      headline: ~
+      you_have_not_given_feedback_yet: ~
+      leave_feedback: ~
+    transaction_preauthorized:
+      subject: ~
+      transaction_requested_by_user: ~
+      you_have_time_to_accept: ~
+      if_you_do_accept: ~
+      if_you_do_accept_stripe: ~
+      if_you_do_not_accept: ~
+      click_here_to_reply: ~
+    transaction_preauthorized_v2:
+      headline: ~
+    transaction_preauthorized_reminder:
+      subject: ~
+      remember_to_accept: ~
+      one_day_left: ~
+      click_here_to_reply: ~
+    transaction_preauthorized_reminder_v2:
+      headline: ~
+      remember_to_accept: ~
+    welcome_email:
+      welcome_email_subject: ~
+      welcome_to_marketplace: ~
+      love_marketplace_crew: ~
+      welcome_email_footer_text: "Какви имейли искате да получавате от %{service_name}? %{settings_link}"
+      settings_link_text: "Проверете настройките си"
+    new_listing_by_followed_person:
+      subject: "%{author_name} публикува нова обява в %{service_name}"
+      has_posted_a_new_listing: "%{author_name} публикува нова обява:"
+      you_are_receiving_this_because: ~
+      view_listing: ~
+    new_listing_by_followed_person_v2:
+      headline: ~
+      has_posted_a_new_listing: "%{author_name} публикува нова обява:"
+      you_are_receiving_this_because: ~
+      view_listing: ~
+      cant_click: ~
+    new_member_notification:
+      subject: ~
+      new_member_has_joined: ~
+      this_is_automatic_message: "Това е автоматично съобщение, изпратено до администраторите на %{community}."
+      person_name: ~
+      person_email: ~
+    new_member_notification_v2:
+      headline: ~
+      new_member_has_joined: ~
+      view_profile: "Виж профил"
+    listing_submited_for_review:
+      subject: ~
+      there_is_a_new_listing_to_review: ~
+      review_the_listing: ~
+      this_is_automatic_message: "Това е автоматично съобщение, изпратено до администраторите на %{community}."
+    listing_approved:
+      subject: ~
+      listing_has_been_approved: ~
+      view_the_listing: ~
+    listing_rejected:
+      subject: ~
+      listing_has_been_rejected: ~
+      contact_link: ~
+      edit_the_listing: ~
+    edited_listing_submited_for_review:
+      subject: ~
+      there_is_a_edited_listing_to_review: ~
+      review_the_listing: ~
+    new_transaction:
+      subject: "Нова транзакция в %{service_name}"
+      there_is_a_new_transaction: ~
+      a_new_transaction: ~
+      listing: "Обява: %{title}"
+      sum: ~
+      starter: ~
+      provider: ~
+    new_transaction_v2:
+      subject: "Нова транзакция в %{service_name}"
+      there_is_a_new_transaction: ~
+      a_new_transaction: ~
+      listing: "Обява:"
+      sum: ~
+      starter: ~
+      provider: ~
+      view_transaction: ~
+    transaction_cancel_flow:
+      the_order_about: ~
+      you_can_contact_the_marketplace_team: ~
+      you_can_now_give_feedback: ~
+      give_feedback_to: ~
+    transaction_disputed:
+      subject: ~
+      subject_admin: ~
+      order_about: ~
+      the_order_has_been_canceled: ~
+      the_order_between_buyer_and_seller_has_been_canceled: ~
+      the_marketplace_has_been_notified: ~
+      contact_the_marketplace_team: ~
+      you_must_now_decide: ~
+      learn_more_about: ~
+      review_the_transaction: ~
+    transaction_refunded:
+      subject: ~
+      marketplace_team_has_approved_the_cancellation: ~
+      you_should_receive_a_refund_soon: ~
+    transaction_cancellation_dismissed:
+      subject: ~
+      marketplace_team_has_rejected_the_cancellation: ~
+    transaction_commission_charge_failed:
+      subject: ~
+      transaction_about: ~
+      the_commission_of_the_transaction: ~
+      this_usually_means: ~
+      if_you_would_like_to_investigate: ~
+      contact_the_seller: ~
+  error_messages:
+    booking:
+      booking_failed_payment_voided: ~
+      double_booking_payment_voided: ~
+    onboarding:
+      server_rendering: ~
+    listings:
+      departure_time: "Времето за заминаване трябва да бъде до една година от днешната дата."
+      share_type: "Трябва да изберете поне едно."
+      valid_until: "Датата трябва да бъде между текущата и 6 месеца напред."
+      price: ~
+      minimum_price: ~
+    testimonials:
+      you_must_explain_not_neutral_feedback: "Ако искате да дадете не-неутрална обратна връзка, трябва да обясните защо."
+      you_must_select_a_grade: "Не забравяйте да кажете дали вашият опит е бил положителен или отрицателен."
+    transaction_agreement:
+      required_error: ~
+    paypal:
+      transaction_cannot_complete: ~
+      buyer_cannot_pay_error: "Плащането беше отказано от PayPal. Моля, свържете се с Отдел Обслужване на %{customer_service_link}."
+      pending_review_error: ~
+      seller_express_checkout_disabled: ~
+      seller_express_checkout_disabled_no_free: ~
+      generic_error: ~
+      cancel_error: ~
+      accept_authorization_error: ~
+      reject_authorization_error: ~
+    stripe:
+      generic_error: ~
+      accept_authorization_error: ~
+      reject_authorization_error: ~
+      card_declined: ~
+      expired_card: ~
+  error_pages:
+    back_to_kassi_front_page: "Върнете се в началото."
+    error_404:
+      if_you_believe: "Ако смятате, че адресът е правилен и трябва да работи, моля, помогнете ни да намерим грешката, като ни информирате кой адрес е причинил грешката и какво трябва да се види на страницата с формуляра по-долу."
+      page_can_not_be_found: "Страницата не може да бъде показана!"
+      page_you_requested_can_not_be_found: "Страницата не може да бъде намерена. Сигурни ли сте, че сте написали адреса правилно?"
+    error_404_title: "Страницата не може да бъде намерена!"
+    error_410:
+      page_removed: ~
+      page_you_requested_has_been_removed: ~
+      page_removed_reason: ~
+    error_410_title: ~
+    error_500:
+      temporary_unavailable: ~
+      unable_to_process: ~
+      we_hate_this: ~
+      refer_to_error_id: ~
+    error_500_title: "Грешка при зареждане на страницата."
+    error_description: "Описание на грешката"
+    no_javascript:
+      javascript_is_disabled_in_your_browser: "Javascript е изключен във вашият браузър."
+      kassi_does_not_currently_work_without_javascript: "%{service_name} не работи коректно със изключен javascript. Моля, активирайте javascript и заредете страницата отново."
+      contact_us: "свържете се с нас"
+      send_feedback: "Изпратете съобщение"
+      your_feedback_to_admins: "Вашето съобщение до %{service_name} екип"
+    send: Изпратено
+    your_email_address: "Вашият email адрес:"
+  errors:
+    messages:
+      invalid_date: ~
+      invalid_time: ~
+      invalid_datetime: ~
+      is_at: ~
+      before: ~
+      on_or_before: ~
+      after: ~
+      on_or_after: ~
+      positive_number: ~
+      from_must_be_less_than_till: ~
+      section_with_this_id_already_exists: ~
+      listing_with_this_id_does_not_exist: ~
+      presence: ~
+      username_is_invalid: ~
+      domain_name_is_invalid: ~
+      only_supported_variables: ~
+  event_feed_events:
+    accept:
+      has_accepted_lend_item: "%{offerer_name} се съгласи да даде заем %{listing_title} на %{requester_name} %{time_ago}."
+      has_accepted_borrow_item: "%{offerer_name} се съгласи да даде заем %{listing_title} на %{requester_name} %{time_ago}."
+      has_accepted_rent_out_item: "%{offerer_name} се съгласи да наеме %{listing_title} на %{requester_name} %{time_ago}."
+      has_accepted_rent_item: "%{offerer_name} се съгласи да наеме %{listing_title} на %{requester_name} %{time_ago}."
+      has_accepted_give_away_item: "%{offerer_name} се съгласи да даде %{listing_title} на %{requester_name} %{time_ago}"
+      has_accepted_receive_item: "%{offerer_name} се съгласи да даде %{listing_title} на %{requester_name} %{time_ago}"
+      has_accepted_sell_item: "%{offerer_name} се съгласи на продажба %{listing_title} на %{requester_name} %{time_ago}"
+      has_accepted_buy_item: "%{offerer_name} се съгласи на продажба %{listing_title} на %{requester_name} %{time_ago}"
+      has_accepted_trade_item: "%{offerer_name} се съгласи за бартер %{listing_title} с %{requester_name} %{time_ago}"
+      has_accepted_sell_housing: "%{offerer_name} се съгласиха да продадат %{listing_title} на %{requester_name} %{time_ago}"
+      has_accepted_buy_housing: "%{offerer_name} се съгласиха да продадат %{listing_title} на %{requester_name} %{time_ago}"
+      has_accepted_rent_out_housing: "%{offerer_name} се съгласи да наеме%{listing_title} на%{requester_name} %{time_ago}"
+      has_accepted_rent_housing: "%{offerer_name} се съгласи да наеме%{listing_title} на %{requester_name} %{time_ago}"
+      has_accepted_favor: "%{offerer_name} съгласен да предложи %{listing_title} на %{requester_name} %{time_ago}"
+      has_accepted_rideshare: ~
+    join:
+      joined_kassi: "%{name} присъединиха %{service_name} %{time_ago}."
+    login:
+      logged_in_to_kassi: "%{name} влезте в %{service_name} %{time_ago}"
+    comment:
+      commented: "%{commenter_name} коментира списъка %{listing_title} %{time_ago}"
+      offer_partitive: оферта
+      request_partitive: поискване
+  header:
+    about: Относно
+    home: Начало
+    members: общество
+    new_listing: "Нова обява"
+    mobile_version: "Мобилна версия"
+    offers: Оферти
+    requests: Заявки
+    search_kassi: "Търсене в %{service_name}"
+    create_new_marketplace: "Създайте нов пазар"
+    contact_us: "Свържете се с нас"
+    profile: Профил
+    manage_listings: ~
+    invite: "Покани нови потребители"
+    login: Вход
+    signup: "Регистрирай се"
+    menu: ~
+  homepage:
+    additional_private_listings_slate:
+      additionally_one_private_offer_exists: "В допълнение има <b>друго предложение</b>,"
+      additionally_one_private_request_exists: "В допълнение има <b>друго запитване</b>,"
+      additionally_some_private_offers_exist: "В допълнение има <b>%{number_of_listings} други предложения</b>,"
+      additionally_some_private_requests_exist: "В допълнение има <b>%{number_of_listings} други запитвания</b>,"
+    blank_slate:
+      add_first: "Добавете един!"
+      but_that_is_visible_only_to_registered_members: "това е видимо само за регистрирани потребители."
+      but_those_are_visible_only_to_registered_members: "тези са видими само за регистрирани потребители."
+      create_new_account_for_yourself: "Създайте си нов акаунт"
+      examples_of_what_you_could_offer_to_others: "Какво можете да предложите на другите"
+      examples_of_what_you_could_request_to_others: "Какво бихте могли да поискате от другите"
+      favor_offer_list: "компютърна помощ, поправка на дрехи, печене, ремонт на велосипеди"
+      favor_request_list: "гледане на деца, уроци по пиано, разхождане на кучета, косене на трева"
+      favors_to_offer: "Помощ: "
+      favors_to_request: "Помощ: "
+      item_offer_list: "инструменти, спортно оборудване, костюми, оборудване за къмпинг"
+      item_request_list: "инструменти, спортно оборудване, костюми, оборудване за къмпинг"
+      items_to_offer: "Неща под наем: "
+      items_to_request: "Неща назаем: "
+      log_in: Вход!
+      no_offers_visible_unless_logged_in: "Артикули, услуги или предложения за превози не са видими за потребители, които не са влезли в профила си."
+      no_open_offers_currently: "Няма открити артикули, услуги или предложения за превози."
+      no_open_requests_currently: "Няма открити артикули, услуги или запитвания за превози."
+      no_requests_visible_unless_logged_in: "Артикули, услуги или запитвания за превози не са видими за потребители, които не са влезли в профила си."
+      one_private_offer_exists: "Вече има <b>една оферта</b>,"
+      one_private_request_exists: "Вече има <b>едно запитване</b>,"
+      ride_offer: "Вземете децата на другите на техните хобита"
+      ride_request: "Пътуване до работа"
+      some_private_offers_exist: "Вече има <b>%{number_of_listings} предложения</b>,"
+      some_private_requests_exist: "Вече има <b>%{number_of_listings} запитвания</b>,"
+    custom_filters:
+      update_view: "Обнови изглед"
+      min: "От:"
+      max: "До:"
+    event_feed:
+      latest_events: "Какво става"
+    grid_item:
+      processing_uploaded_image: ~
+    index:
+      no_listings_with_your_search_criteria: ~
+      no_listings_notification: "Няма обяви. %{add_listing_link}"
+      add_listing_link_text: ~
+      open_listing: "отворена обява"
+      open_listings: "отворени обяви"
+      private_listing_notification_log_in: Вход
+      is: е
+      are: сте
+      what_do_you_need: "Какво търсиш?"
+      post_new_listing: "Публикуване на нова обява"
+      are_offering: предложение
+      add_news_item: "Добавете статия"
+      lend_rent_help_carpool: "Продай, заеми, помогни, сподели пътуване"
+      loading_more_content: "Зареждане на повече съдържание"
+      more_events: Още...
+      news: Новини
+      no_news: "Няма новини"
+      more_news: "Още новини"
+      or: и
+      or_see_what_the_others: "...или вижте какво другите"
+      recent_events: Най-нови
+      requesting: нужен
+      tell_it_here: "Разкажи го тук!"
+      welcome_to_new_kassi: "Добре дошли в %{service_name}!"
+      no_reviews: "Засега няма отзиви"
+      no_image: ~
+      filter: ~
+      this_is_private_community: "Трябва да сте регистриран преди да видите съдържанието."
+    invitation_form:
+      email: ~
+      message: "Лично съобщение"
+      send_invitation: "Изпрати покана"
+      add_email_addresses_description: "Добавете имейл адресите на хората, които каните, в полето по-долу. За да добавите няколко имейл адреса, разделете ги със запетая."
+      add_lots_of_email_addresses: ~
+      this_article_link: ~
+      invitation_emails_field_placeholder: "friend1@example.com, friend2@example.com, ..."
+      invitation_message_field_placeholder: "Присъединих се към този невероятен пазар. Вие също трябва!"
+      errors_in_emails: "Проверете дали добавените от вас имейл адреси са валидни и не съдържат необичайни знаци. Ако сте добавили няколко адреса, уверете се, че те са разделени със запетая."
+    list_item:
+      review: ~
+      reviews: ~
+      distance_away: ~
+    news_item:
+      show_less: "Покажи по-малко"
+      show_more: "Покажи повече"
+    profile_info_empty_notification:
+      add_your_info: "Добавете вашата информация за контакт"
+      add_a_profile_picture: "Добавете снимка на профила"
+      you_have_not_added_your_info: "Не сте добавили вашата информация за контакт. Моля, добавете, за да могат другите да се свързват по-лесно с вас. Освен това добавете снимка на профила, така че да е по-лесно другите да ви се доверят."
+      add_your_info_link: "Добавете вашата информация сега"
+    recent_listing:
+      please_offer: Оферирай
+      comment: коментар
+      comments: коментари
+    filters:
+      show: "Филтър:"
+      search: ~
+      map: "Покажи карта"
+      list: "Показване на списък"
+      map_button: Карта
+      grid_button: Мрежа
+      list_button: Списък
+      all_listing_types: "Всички видове листинг"
+      all_categories: "Всички категории"
+    errors:
+      search_engine_not_responding: ~
+  infos:
+    about:
+      default_about_text_title: ~
+      default_about_text: ~
+      click_here_link_text: ~
+    how_to_use:
+      default_title: ~
+      default_content: "Тук можете да намерите информация за това как работи %{marketplace_name}."
+  landing_page:
+    hero:
+      search: ~
+      signup: "Регистрирай се"
+      search_placeholder: ~
+      search_location_placeholder: Mестоположение
+    listings:
+      no_listing_image: ~
+  layouts:
+    admin:
+      admin: "%{service_name} администраторски панел"
+    branding:
+      powered_by: ~
+      create_own: ~
+      learn_more: ~
+    no_tribe:
+      inbox: Съобщения
+      settings: Настройки
+      feedback: "Свържете се с екипа на %{service_name}"
+    application:
+      join_this_community: "Присъединете се към пазар"
+      read_more: "Прочетете още"
+      feedback: "Вашето съобщение до %{service_name} екип"
+      dont_use_to_contact_support: ~
+      feedback_forum: "форум за препоръки"
+      feedback_handle: Препоръка
+      give_feedback: "Свържете се с нас"
+      or_check_our: "..или проверете нашата"
+      send_feedback_to_admin: "Изпрати съобщение"
+      to_see_what_others_have_suggested: "за да видите какво са предложили другите потребители и гласувайте за идеите там."
+      your_email_address: "Вашата електронна поща(За контакт с Вас)"
+      connect: "Регистрирай се"
+      invite_your_friends: "Покани приятели!"
+      invite_your_neighbors: "Поканете съседите!"
+      invite_your_friends_description: "Колкото повече хора има в %{service_name}, толкова по-полезно е."
+      invite_your_friends_invite_only_description: "Хората не могат да се присъединят към %{service_name}, освен ако не са поканени."
+      join_without_facebook: "... или алтернативно %{join_without_facebook_link}"
+      join_without_facebook_link: "Регистрирай се без Facebook"
+    conversations:
+      messages: Съобщения
+      notifications: Известия
+      received: Получени
+      sent: Изпратени
+    global-header:
+      select_language: ~
+    infos:
+      about: Относно
+      how_to_use: "Как работи"
+      info_about_kassi: "Информация за %{service_name}"
+      news: Новини
+      register_details: Поверителност
+      terms: "Условия за ползване"
+    logged_in:
+      admin: Админ
+      go_to_your_profile_page: Профил
+      hi: Здравей
+      login: Вход
+      logout: Изход
+      notifications: Известия
+      requests: "Заявки за приятелство"
+      settings: Настройки
+      sign_up: Регистрация
+    logged_in_messages_icon:
+      messages: Съобщения
+    logged_in_notifications_icon:
+      notifications: Известия
+    markdown_help:
+      title: ~
+      description: ~
+      formatting: ~
+      result: ~
+      h1: ~
+      h2: ~
+      h3: ~
+      italic: ~
+      bold: ~
+      underline: ~
+      strikethrough: ~
+      inline_link: ~
+      list: ~
+      one: ~
+      two: ~
+      three: ~
+    mobile_logged_in:
+      admin: Админ
+      go_to_your_profile_page: Профил
+      hi: Здравей
+      login: Вход
+      logout: Изход
+      notifications: Известия
+      requests: "Заявки за приятелство"
+      settings: Настройки
+      sign_up: "Регистрирай се"
+    notifications:
+      listing_could_not_be_saved: ~
+      contact_admin_link_text: ~
+      test_welcome_email_delivered_to: ~
+      something_went_wrong: ~
+      community_updated: "Подробностите са актуализирани."
+      community_update_failed: "Подробното актуализиране не успешно."
+      account_creation_succesful_you_still_need_to_confirm_your_email: "Вашият акаунт е създаден успешно. Сега трябва да потвърдите имейл адреса си."
+      community_joined_succesfully_you_still_need_to_confirm_your_email: "Благодарим, че се присъединихте към %{service_name}. Сега трябва да потвърдите имейл адреса си."
+      comment_cannot_be_empty: "Коментарът не може да бъде празен"
+      comment_sent: "Коментарът е изпратен"
+      confirmation_link_is_wrong_or_used: "Връзката за потвърждение вече е използвана или прекъсната по друг начин. Опитайте да влезете или да изпратите отзиви, ако проблемът продължава."
+      additional_email_confirmed: "Въведеният от вас имейл е потвърден."
+      could_not_get_email_from_social_network: ~
+      social_network_email_unconfirmed: ~
+      create_new_listing: ~
+      create_one_here: "го създадете тук."
+      email_confirmation_sent_to_new_address: "Потвърждението по имейл вече се изпраща на новия адрес."
+      email_not_found: "Даденият от вас имейл не бе намерен от базата данни %{service_name}."
+      error_with_session: "Грешка при сесията."
+      feedback_considered_spam: "Обратната връзка не е запазена поради форматирането и. Опитайте отново или използвайте форума за обратни връзки."
+      feedback_not_saved: "Обратната връзка не може да бъде изпратена."
+      feedback_saved: "Благодарим ви много за вашето съобщение! Ще се свържем с вас възможно най-скоро."
+      feedback_sent_to: "Обратната връзка е изпратена до %{target_person}."
+      feedback_skipped: "Обратната връзка е пропусната."
+      invitation_cannot_be_sent: "Поканата не можа да бъде изпратена"
+      invitation_cannot_unsubscribe: ~
+      invitation_limit_reached: ~
+      invitation_sent: "Поканата е изпратена успешно"
+      invitation_successfully_unsubscribed: ~
+      inviting_new_users_is_not_allowed_in_this_community: "Поканването на нови потребители не е позволено."
+      login_again: "Моля, влезте отново."
+      login_failed: "Неуспешно влизане. Моля, въведете правилните данни за вход."
+      account_creation_successful: "Добре дошли в %{service_name}, %{person_name}!"
+      account_deleted: ~
+      login_successful: "Добре дошли, %{person_name}!"
+      logout_successful: "Вече излязохте от %{service_name}. До скоро!"
+      news_item_created: "Статията е създадена"
+      news_item_creation_failed: "Неуспешно изпращане на отговори"
+      news_item_update_failed: "Актуализацията на статия не успешна"
+      news_item_updated: "Статията е актуализирана"
+      news_item_deleted: "Статията е премахната"
+      offer_accepted: "Предложението е прието"
+      offer_confirmed: ~
+      offer_closed: "Предложението е затворено"
+      listing_created_successfully: "Обява е създадена успешно.  %{new_listing_link}."
+      offer_rejected: "Предложението е отхвърлено"
+      offer_canceled: ~
+      listing_updated_successfully: ~
+      listing_updated_availability_management_enabled: ~
+      listing_updated_availability_management_disabled: ~
+      listing_deleted: ~
+      only_kassi_administrators_can_access_this_area: "Моля, влезте с администраторски акаунт за достъп до тази зона"
+      only_listing_author_can_close_a_listing: "Само авторът на обява може да я закрие"
+      only_listing_author_can_edit_a_listing: "Само авторът на обява може да я редактира"
+      payment_successful: ~
+      payment_canceled: ~
+      error_in_payment: ~
+      cannot_receive_payment: ~
+      payment_waiting_for_later_accomplishment: ~
+      password_recovery_sent: "Инструкции за промяна на паролата ви бяха изпратени до вашия имейл."
+      person_activated: "Потребителят се активира"
+      person_deactivated: "Потребителят е деактивиран"
+      person_updated_successfully: "Информацията е актуализирана"
+      poll_answered: "Анкета отговори"
+      poll_could_not_be_answered: "На анкетата не може да се отговори"
+      poll_created: "Анкета е създадена"
+      poll_creation_failed: "Създаването на анкетата не успешно"
+      poll_update_failed: "Актуализацията на анкетата не успешна"
+      poll_updated: "Анкета е създадена"
+      poll_deleted: "Анкета е премахната"
+      read_more: "Прочетете повече!"
+      registration_considered_spam: "Регистрацията не работи, моля, свържете се с нас от менюто на заглавието и споменете „грешка в имейл2“."
+      reply_cannot_be_empty: "Не може да изпратите празно съобщение"
+      reply_sent: "Отговорът е изпратен успешно"
+      request_accepted: "Запитването е прието"
+      request_confirmed: ~
+      request_rejected: "Запитването е отхвърлено"
+      request_canceled: ~
+      message_sent: "Съобщението е изпратено"
+      message_not_sent: ~
+      this_content_is_not_available_in_this_community: "Това съдържание не е достъпно."
+      unknown_error: "Неизвестна грешка. Моля, използвайте връзката Свържете се с нас, за да изпратите подробности за случилото се."
+      update_error: "При опита за актуализиране на информацията възникна грешка, моля, опитайте отново"
+      you_are_not_allowed_to_give_feedback_on_this_transaction: "Не сте упълномощени да давате обратна връзка за това събитие"
+      you_are_not_authorized_to_do_this: "Не сте упълномощени да правите това"
+      you_are_not_authorized_to_view_this_content: "Не сте упълномощени да разглеждате това съдържание"
+      listing_closed: ~
+      send_instructions: "Ще получите имейл с инструкции как да нулирате паролата си след няколко минути."
+      you_cannot_reply_to_a_closed_offer: "Не можете да отговорите на затворено предложение"
+      you_cannot_send_message_to_yourself: "Не можете да изпратите съобщение до себе си"
+      you_followed_listing: "Сега следите този списък"
+      you_have_already_given_feedback_about_this_event: "Вече дадохте обратна връзка за това събитие"
+      you_are_now_member: "Добре дошли в %{service_name}!"
+      you_are_already_member: "Вече сте член на %{service_name}. Добре дошъл обратно!"
+      you_must_log_in_to_create_new_listing: "Трябва да сте вписани в %{service_name}, за да създадете нова обява. Ако все още нямате акаунт, можете да %{sign_up_link}."
+      additional_email_confirmed_dashboard: "Вашият имейл вече е потвърден."
+      you_must_log_in_to_give_feedback: "Трябва да влезете, за да дадете обратна връзка"
+      you_must_log_in_to_invite_new_users: "Трябва да влезете, за да поканите нови потребители на %{service_name}"
+      you_must_log_in_to_send_a_comment: "Трябва да влезете, за да изпратите нов коментар"
+      you_must_log_in_to_send_a_message: "Трябва да влезете в %{service_name}, за да изпратите съобщение на друг потребител."
+      you_must_log_in_to_do_a_transaction: "Трябва да сте вписани в %{service_name} за да осъществите желаното действие."
+      you_must_log_in_to_view_this_content: "Трябва да влезете, за да видите това съдържание"
+      you_must_log_in_to_view_this_page: "Трябва да се вписани за да видите тази страница"
+      you_must_log_in_to_view_your_inbox: "Трябва да влезете в %{service_name}, за да видите входящата си поща."
+      you_must_log_in_to_view_your_settings: "Трябва да влезете в %{service_name}, за да видите настройките си."
+      you_must_log_in_to_add_news_item: "Трябва да сте регистрирани в %{service_name} за да добавите обява."
+      you_must_log_in_to_change_profile_settings: "Трябва да влезете в %{service_name}, за да промените настройките на профила"
+      you_must_log_in_to_accept_or_reject: ~
+      you_must_log_in_to_confirm_or_cancel: ~
+      you_need_to_confirm_your_account_first: "Трябва да потвърдите имейла си."
+      you_must_fill_all_the_fields: ~
+      you_unfollowed_listing: "Вече не следвате този списък"
+      joining_community_failed: "Присъединяването не успешно"
+      can_not_delete_email: "Не можете да премахнете имейл адреса"
+      user_does_not_have_email_to_delete: ~
+      email_deleted: ~
+      listing_author_payment_details_missing: "Моля, свържете се с автора като натиснете бутона 'Свържи се'. Необходимо е да си настроят профила за приемане на плащания."
+      listing_author_payment_details_missing_no_free: ~
+      images_are_processing: ~
+      automatically_logged_out_please_sign_in: ~
+      stripe_you_account_balance_is_not_0: ~
+      stripe_balance_for_username_is_not_0: ~
+      visit_admin: "Желаете ли да %{link}?"
+      visit_admin_link: "Посетете Вашия панел като Администратор"
+      an_error_occurred_when_saving_your_information: ~
+    settings:
+      account: Акаунт
+      notifications: Известия
+      profile: "Информация за профила"
+      settings: Настройки
+      paypal_payments: ~
+      stripe_payments: ~
+      payments: ~
+      listings: ~
+      listings_search_placeholder: ~
+      transactions_search_placeholder: ~
+      transactions: ~
+  listings:
+    bubble_listing_not_visible:
+      listing_not_visible: "Нямате разрешение за преглед на тази обява."
+    comment:
+      wrote: написах
+      send_private_message: "Изпратете лично съобщение до %{person}"
+      delete: ~
+      are_you_sure: ~
+    comment_form:
+      ask_a_question: "Коментирайте обява или поискайте повече подробности. Всички останали потребители ще могат да видят вашия коментар."
+      log_in: "да влезете"
+      send_comment: "Изпратете коментар"
+      to_send_a_comment: "за да изпратите нов коментар."
+      write_comment: "Напишете нов коментар:"
+      you_cannot_send_a_new_comment_because_listing_is_closed: "Не можете да изпращате нови коментари, защото тази обява е затворена."
+      you_must: "Вие трябва"
+      subscribe_to_comments: "Уведоми ми ме при нови коментари и развития"
+    deleting_a_listing_cannot_be_undone: ~
+    edit:
+      edit_listing: "Редактиране на обявата"
+    edit_links:
+      close_listing: "Затваряне на обява"
+      edit_listing: "Редактиране на обявата"
+      reopen_listing: ~
+      move_to_top: "Добави в ТОР оферта"
+      show_in_updates_email: ~
+      show_in_updates_email_loading: ~
+      show_in_updates_email_error: ~
+      show_in_updates_email_success: ~
+      listing_is_pending: ~
+      listing_is_rejected: ~
+      approve_listing: ~
+      reject_listing: ~
+      delete_listing: "Изтриване на обява"
+    map:
+      open_in_google_maps: ~
+    error:
+      something_went_wrong: ~
+      something_went_wrong_plain: ~
+      create_failed_to_connect_to_booking_service: ~
+      update_failed_to_connect_to_booking_service: ~
+    follow_links:
+      follow: "Получавайте съобщения за нови коментари"
+      unfollow: "Не получавайте съобщения за нови коментари"
+    form:
+      custom_field_partials:
+        dropdown:
+          select_one___: ~
+      departure_time:
+        at: в
+        departure_time: "Време на заминаване"
+      departure_time_radio_buttons:
+        repeated: "Повтаряемо (добавете часове и дати в полето 'Допълнително описание')"
+      description:
+        detailed_description: "Подробно описание"
+        youtube_info: ~
+        youtube_info_markdown: "Можете да %{link}. Ако вашето описание съдържа YouTube линкове, видеото ще се покаже под описанието."
+      destination:
+        destination: Дестинация
+      form_content:
+        favor: услуга
+        housing: пространство
+        item: артикул
+        offer_something: "Предложете нещо"
+        request_something: "Заявете нещо"
+        rideshare: превоз
+        i_want_to_offer: "Искам да предложа ..."
+        i_want_to_request: "Нуждая се..."
+      googlemap:
+        googlemap_copy: "Крайни точки от картата"
+        googlemap_description: "Изглед на картата"
+        googlemap_updatemap: "Актуализиране на картата"
+      images:
+        image: Изображение
+        best_result: ~
+        no_file_selected: "Не е избран файл"
+        remove_image: "Премахване на изображението"
+        select_file: "Избери файл"
+        add_more: ~
+        removing: ~
+        processing: ~
+        loading_image: ~
+        image_uploading_in_progress: ~
+        processing_takes_a_while: ~
+        this_may_take_a_while: "това ще отнеме секунда"
+        percentage_loaded: ~
+        uploading_failed: ~
+        image_processing_failed: ~
+        file_too_large: ~
+        accepted_formats: ~
+        images_not_uploaded_confirm: ~
+      location:
+        location: Mестоположение
+      price:
+        price: Цена
+        per: за
+        per_day: "на ден"
+        mass: "за kg, l, m2, ..."
+        time: "час, ден, месец, ..."
+        long_time: "седмица, месец, ..."
+        after_service_fee_you_will_get: ~
+        no_service_fee_you_will_get_paypal_text: ~
+        no_service_fee_you_will_get_payment_text: "%{payment_fee_info_link} ще се приспадне от цената."
+        after_service_fee_you_will_get_payment_text: ~
+        payment_fee_info_link_text: ~
+        delivery: "Начин на доставка"
+        shipping: Доставка
+        shipping_price: "Такса за доставка"
+        shipping_price_additional: "Допълнителни елементи"
+        pickup: Вдигни
+      origin:
+        location: Mестоположение
+        origin: Произход
+        the_exact_location: ~
+      send_button:
+        save_listing: Запази
+        submit_for_review: "Изпращане за одобрение"
+        will_be_reviewed: ~
+        we_noticed_youre_an_admin: ~
+      share_type:
+        select: Изберете
+        borrow: Отдаване
+        buy: Купуване
+        give_away: Подаряване
+        lend: Заемане
+        offer_type: "Тип оферта"
+        receive: "Приеми безплатно"
+        rent: Наемане
+        rent_out: "Отдаване под наем"
+        request_type: "Тип на заявката"
+        sell: Продажба
+        share_for_free: "Споделяне безплатно"
+        accept_for_free: "Приемане безплатно"
+        trade: Размяна
+      tag_list:
+        comma_separate: "(Отделете думите със запетая)"
+        tags: Етикети
+      title:
+        listing_title: "Заглавие на обявата"
+      valid_until:
+        valid_until: "Крайна дата"
+      valid_until_radio_buttons:
+        for_the_time_being: "За времето"
+      privacy:
+        privacy: поверителност
+        private: "Частен (могат да виждат само потребители, които са влезли)"
+        public: "Публична (видима за потребители, които не са влезли в системата)"
+    help_texts:
+      help_share_type_title: "Тип на предложение или заявка"
+      help_tags_title: Етикети
+      help_valid_until_title: "Крайна дата"
+    index:
+      all_categories: "Всички категории"
+      all_offer_types: "Всички видове предложения"
+      all_request_types: "Всички видове заявки"
+      category: Категория
+      did_not_found_what_you_were_looking_for: "Не намерихте ли това от което се нуждаехте?"
+      favors: Услуги
+      housing: Пространства
+      items: Артикули
+      list_view: "Изглед като списък"
+      listings: Обяви
+      map_view: "Изглед на карта"
+      offer_something: "Нека другите да знаят!"
+      offer_type: "Тип на предложението"
+      offers: Предложения
+      request_something: "Заявете нещо!"
+      request_type: "Тип на заявката"
+      requests: Заявки
+      rideshare: "Споделен превоз"
+      you_have_something_others_do_not: "Имате ли нещо да предложите?"
+      feed_title: "%{listing_type} в%{service_name} %{optional_category}"
+    left_panel_link:
+      borrows: отдаване
+      buys: купуване
+      favors: Услуги
+      give_aways: Подарявам
+      housings: Пространства
+      items: Артикули
+      lends: Заемане
+      receives: "Безплатно вземане"
+      rent_outs: "Отдаване под наем"
+      rents: Наемане
+      rideshares: "Споделен превоз"
+      sells: Продаване
+      share_for_frees: "Споделяне безплатно"
+      accept_for_frees: "Приемане безплатно"
+      trades: Размяна
+    listing_actions:
+      booking_from: ~
+      booking_to: ~
+      how_paypal_works: ~
+      payment_help: ~
+      unable_load_availability: ~
+      booking_date: ~
+      select_one: ~
+      start_time: ~
+      end_time: ~
+      marketplace_fees_may_apply: ~
+    new:
+      listing: обявата
+      selected_category: "Категория: %{category}"
+      selected_subcategory: "Подкатегория:%{subcategory}"
+      selected_transaction_type: ~
+      select_category: "Избери категория"
+      select_subcategory: "Изберете подкатегория"
+      select_transaction_type: "Изберете вид обява"
+      you_need_to_fill_payout_details_before_accepting: "Трябва да попълните данни за изплащанията, преди да можете да публикувате обява. Отидете на %{payment_settings_link}, за да попълните данните."
+      contact_admin_link_text: ~
+      community_not_configured_for_payments: "%{service_name} не е конфигуриран за плащания, така че все още не можете да публикувате нови списъци. Моля,%{contact_admin_link} за подробности."
+      payment_settings_link: ~
+      community_not_configured_for_payments_admin: "%{service_name} не е конфигуриран за плащания, така че все още не можете да публикувате нови списъци. Отидете на %{payment_settings_link} , за да попълните данните за плащането."
+      you_are_now_posting_a_listing_on_behalf_of: "Сега публикувате списък от името на %{name}"
+    quantity:
+      hour: ~
+      day: ~
+      night: ~
+      week: ~
+      month: "брой месеци"
+      unit: ~
+      custom: ~
+      person: ~
+    quantity_placeholder: ~
+    please_comment: Коментар
+    reply_link:
+      listing_closed: ~
+    show:
+      add_your_phone_number: "Добави телефонен номер"
+      add_profile_picture: "Добавете снимка на профила"
+      comments: "Обществена дискусия"
+      contact_by_phone: "Контакт на телефона:"
+      contact: "Свържи се"
+      favor_offer: "Предложение за услуга"
+      favor_request: "Заявка за услуга"
+      inquiry: ~
+      item_offer_trade: "Оферта за бартер"
+      item_request_trade: "Заявка за размяна"
+      no_description: "Тази обява няма описание"
+      no_image: ~
+      no_reviews: ~
+      offer: Предложение
+      listing_created: ~
+      open_until: "Отваряне до %{date}"
+      feedback: "Обратна връзка"
+      qr_code: "QR код"
+      request: Заявление
+      rideshare_offer: "Предложение за споделен превоз"
+      rideshare_request: "Заявление за споделен превоз"
+      send_private_message: "Изпратете лично съобщение"
+      tags: Етикети
+      time: време
+      times: пъти
+      times_viewed: Преглеждани
+      processing_uploaded_image: ~
+      listing_created_at: "Обява е създадена"
+      price:
+        per_quantity_unit: "за %{quantity_unit}"
+        per_day: "на ден"
+      delivery: ~
+      shipping: "Доставка: (+%{price})"
+      shipping_no_price: Доставка
+      shipping_price_additional: "Доставка (+%{price}, допълнителни артикули: %{shipping_price_additional} )"
+      pickup: ~
+      pickup_no_price: Вдигни
+      youtube_video_player: ~
+    unit_types:
+      piece: ~
+      hour: ~
+      day: ~
+      night: ~
+      week: ~
+      month: месец
+      unit: Единица
+      person: ~
+    verification_required:
+      verification_required: ~
+  listing_conversations:
+    preauthorize:
+      dates_not_available: ~
+      error_in_checking_availability: ~
+      details: ~
+      by: ~
+      payment: ~
+      exp: ~
+      you_will_be_charged: ~
+      day: ~
+      days: ~
+      night: ~
+      nights: ~
+      invalid_parameters: ~
+      select_delivery_method: ~
+    transaction_agreement_checkbox:
+      read_more: ~
+    stripe_payment:
+      payment: ~
+      pay_with_card: ~
+      address: ~
+      address_country: ~
+      address_name: ~
+      address_city: ~
+      address_state: ~
+      address_street1: ~
+      address_street2: ~
+      address_postal_code: "Пощенски код *"
+  mapview:
+    index:
+      all_categories: "Всички категории"
+      all_offer_types: "Всички видове предложения"
+      all_request_types: "Всички видове заявки"
+      category: Категория
+      did_not_found_what_you_were_looking_for: "Не намерихте ли това от което се нуждаехте?"
+      favors: Услуги
+      housing: Пространства
+      items: Артикули
+      list_view: "Изглед като списък"
+      map_view: "Преглед върху карта"
+      offer_something: "Нека другите да знаят!"
+      offer_type: "Тип на предложението"
+      offers: Предложения
+      request_something: "Заявете нещо!"
+      request_type: "Тип на заявката"
+      requests: Заявки
+      rideshare: "Споделен превоз"
+      you_have_something_others_do_not: "Имате ли нещо да предложите?"
+    please_comment: Коментар
+  mercury:
+    content_too_long: ~
+  okl:
+    member_id: "Номер на id"
+    member_id_or_email: "Идентификационен номер или имейл"
+  paypal_accounts:
+    payout_info_title: ~
+    paypal_account_email_connected: ~
+    payout_info_paypal: ~
+    paypal_billing_agreement_made: ~
+    commission_permission_needed: ~
+    create_paypal_account_link_text: ~
+    connected_account: ~
+    paypal_receive_funds_info_label_australia_only: ~
+    paypal_receive_funds_info_label: ~
+    paypal_receive_funds_info_australia_only: ~
+    paypal_receive_funds_info: ~
+    upgrade_paypal_account_link_text: ~
+    admin_account_not_connected: ~
+    contact_admin_link_text: ~
+    you_are_ready_to_accept_payments: ~
+    commission: ~
+    not_now: ~
+    new:
+      payout_info_you_need_to_connect: ~
+      payout_info_text: ~
+      contact_admin_link_text: ~
+      admin_account_not_connected: ~
+      paypal_account_email: ~
+      paypal_account_email_placeholder: ~
+      paypal_account_email_info_text: ~
+      create_paypal_account: ~
+      upgrade_paypal_account: ~
+      paypal_account_billing_agreement: ~
+      follow_steps: ~
+      connect_paypal_account_title: ~
+      connect_paypal_account_title_with_step: ~
+      connect_paypal_account_instructions: "Натиснете бутона по долу за да се впишете в PayPal и да свържете вашият PayPal профил с %{service_name}."
+      connect_paypal_account: ~
+      paypal_account_billing_agreement_with_step: ~
+      paypal_account_billing_agreement_info_both: ~
+      paypal_account_billing_agreement_info_fixed: ~
+      paypal_account_billing_agreement_info_relative: ~
+      paypal_account_billing_agreement_info_none: ~
+      paypal_info_link_text: ~
+      billing_agreement_description: ~
+      billing_agreement: ~
+      permissions_not_granted: ~
+      could_not_fetch_redirect_url: ~
+      paypal_not_enabled: ~
+      billing_agreement_canceled: ~
+      billing_agreement_not_accepted: ~
+      billing_agreement_wrong_account: ~
+      something_went_wrong: ~
+      account_not_verified: ~
+      account_restricted: ~
+    paypal_account_connected_title: ~
+    paypal_account_connected: ~
+    change_account: ~
+    missing: ~
+    from_your_payment_settings_link_text: ~
+    redirect_message: ~
+    redirect_link_text: ~
+    paypal_account_all_set_up: ~
+    can_receive_payments: ~
+    paypal_account_connected_summary: ~
+    paypal_permission_granted_summary: ~
+  paypal:
+    pay_with_paypal: ~
+    checkout_with: ~
+    or_pay_with_paypal: ~
+    checkout_with_paypal: ~
+    cancel_succesful: ~
+    transaction:
+      commission_payment_name: ~
+      commission_payment_description: ~
+    wait_while_loading: ~
+    chatting_with_paypal: ~
+  people:
+    edit_links:
+      activate: Активирате
+      deactivate: Деактивиране
+    help_texts:
+      feedback_description_title: "Обратна връзка"
+      help_invitation_code_title: "Нуждаете се от покана за присъединяване"
+      terms_title: "%{service_name} условия за ползване"
+      invite_only_help_text: "Изберете тази опция, ако искате новите членове да се присъединят само ако са поканени от съществуващ потребител."
+      invite_only_help_text_title: "Само с покана"
+    inactive_notification:
+      this_person_is_not_active_in_kassi: "Този потребител вече не е активен в %{service_name}"
+      inactive_description: "Този потребител е спрял да използва %{service_name}. Не можете да се свържете с този потребител, да им дадете отзиви или да коментирате техните обяви."
+    new:
+      create_new_account: "Създайте акаунт"
+      email: "Имейл адрес"
+      email_is_in_use: "Подаденият от вас имейл вече се използва."
+      email_is_in_use_or_not_allowed: "Този имейл не е позволен или вече се използва. Ако не можете да влезете, свържете се с нас."
+      email_not_allowed: "Този имейл не е разрешен в %{service_name}. Моля, използвайте имейл адрес, който е разрешен. Ако все още не можете да влезете, свържете се с нас."
+      invalid_username_or_email: ~
+      email_restriction_instructions:
+        one: "Достъпът до %{service_name} е ограниaccess access access access access чен. За да се присъедините, се нуждаете от имейл адрес '%{allowed_emails}'."
+        other: "Достъпът до %{service_name} е ограничен. Трябва ви имейл адрес, който доказва, че имате право да се присъедините."
+      family_name: "Фамилно име"
+      given_name: "Собствено име"
+      i_accept_the_terms_and_privacy: "Приемам %{terms} и %{privacy}"
+      admin_emails_consent: "Съгласявам се да получавам електронна поща от екипа на %{service_name} и разбирам, че мога да променя предпочитанията си във всеки един момент"
+      invalid_invitation_code: "Кодът на поканата не е валиден."
+      invitation_code: "Код на поканата"
+      not_required: ", не е задължително"
+      notification_is_mandatory: ~
+      password_again: "Потвърди паролата"
+      show_my_name_to_others: "Показване на истинското ми име на други %{service_name} потребители"
+      sign_up: "Създайте нов профил %{service_name}"
+      terms: "Условията за ползване"
+      privacy: "Политиката за поверителност"
+      visible_only_to_you: "видимо само за вас и %{service_name} екипа"
+      visible_to_everybody: "видимо за всички"
+      create_account_with_provider: "Регистрирай се с %{provider}"
+      OR: ИЛИ
+      signup_with_email: "Регистрирай се с ел.поща."
+      this_field_will_be_publicly_visible: ~
+    profile_feedback:
+      grade: "оценка:"
+      and_gave_following_feedback: "и добавете отзив"
+    profile_listings:
+      no_image: "Няма снимка"
+      manage_listings: "Управление на моите обяви"
+    show:
+      contact: "контакт %{person}"
+      about_me: "За мен:"
+      add_description: "Споделете нещо за вас"
+      add_location: "Добави местоположение"
+      add_phone_number: "Добави телефонен номер"
+      address: "Местоположение:"
+      as_expected: "Както се очаква"
+      edit_profile_info: "Редактирай профил"
+      exceeded_expectations: "Превишение на очакване"
+      positive: положителен
+      hide_description: "Покажи по-малко"
+      less_than_expected: "По-лошо от очакваното"
+      phone_number: "Телефонен номер:"
+      show_all_feedback: "Покажи всички отзиви"
+      show_all_testimonials: "Покажи всички отзиви"
+      show_full_description: "Покажи повече"
+      slightly_better_than_expected: "Превишение на очакване"
+      slightly_less_than_expected: "По-лошо от очакваното"
+      what_are_these: "Какви са тези?"
+      review: "получи преглед"
+      reviews: "получени отзиви"
+      listing: ~
+      listings: Обяви
+      open_listing: "отворена обява"
+      open_listings: "отворени списъци"
+      no_listings: ~
+      no_open_listings: "Няма отворени списъци"
+      no_reviews: "Засега няма отзиви"
+      show_all_listings: ~
+      show_all_open_listings: "Показване на всички отворени обяви"
+      show_all_reviews: "Показване на всички отзиви"
+      admin_actions: ~
+      post_listing_as: "Списък с публикации като"
+    followed_people:
+      you_follow_plural: ~
+      you_follow_singular: ~
+      they_follow_plural: ~
+      they_follow_singular: ~
+      show_all_followed_people: ~
+      no_followed_people: "Засега няма последвани профили"
+    follow_button:
+      following: Последвай
+      follow: Последвай
+      unfollow: "Спри следенето"
+  sessions:
+    new:
+      create_new_account: "Създайте нов акаунт"
+      i_forgot_my_password: "Забравена парола?"
+      login: Вход
+      login_to_kassi: "Влезте в %{service_name}"
+      connect_your_facebook_to_kassi: "Свържете профила си във Facebook с %{service_name}"
+      facebook_account: "Фейсбук профил:"
+      log_in_to_link_account: "Ако вече имате акаунт на %{service_name}, влезте, за да го свържете с вашия Facebook акаунт."
+      you_can_also_create_new_account: "Ако нямате акаунт в %{service_name}, %{accont_creation_link}, за да създадете вашия Facebook вход."
+      account_creation_link_text: "Натисни тук"
+      cancle_facebook_connect: "Ако не искате да свържете този акаунт, можете да %{cancel_link}."
+      facebook_cancel_link_text: анулира
+      log_in_with_your_provider_account: "Влезте с %{provider}"
+      or_sign_up_with_your_username: "...или с вашия имейл адрес:"
+      we_will_not_post_without_asking_you: "Никога няма да публикуваме във Facebook, без да ви питаме."
+    password_forgotten:
+      email: "електронна поща"
+      password_recovery_instructions: "Въведете своя имейл адрес, за да нулирате паролата си."
+      request_new_password: "Заявете нова парола"
+      change_your_password: "Променете паролата си"
+    confirmation_pending:
+      welcome_to_kassi: "Добре дошли в %{service_name}!"
+      check_your_email: "Провери си пощата"
+      resend_confirmation_instructions: "Повторно изпращане на инструкции за потвърждаване"
+      your_current_email_is: "Вашият имейл %{email}"
+      change_email: промяна
+      confirm_your_email: "Моля, потвърдете имейл адреса си."
+      account_confirmation_instructions: "Скоро ще получите имейл с линк за потвърждение на имейл адреса ви. Не забравяйте да проверите вашата спам папка. След като потвърдите имейл адреса ви ще можете да се присъедините към %{service_name}."
+      account_confirmation_instructions_title_admin: ~
+      before_full_access_you_need_to_confirm_email: ~
+      before_confirmation_only_access_admin_dashboard: ~
+      admin_dashboard_link_text: ~
+      account_confirmation_instructions_admin: ~
+      contact_support_link_text: ~
+  settings:
+    account:
+      change: Промяна
+      confirm_new_password: "Потвърдете новата парола"
+      delete_account: "Изтриване на акаунта"
+      delete_account_button: "Изтрии профила завинаги."
+      delete_account_confirmation_popup: ~
+      email_addresses: ~
+      new_email: "Нов имейл адрес"
+      delete_personal_information: "Ако изтриете профила си, личната ви информация (име, телефонен номер, адрес, имейл, снимка на потребителския профил и т.н.) ще бъде изтрита за постоянно и не може да бъде възстановена. Всички създадени от вас обяви ще бъдат премахнати. Няма да можете да активирате отново профила си."
+      delete_information_others_involved: ~
+      unfinished_transactions: ~
+      only_admin: ~
+      new_password: "Нова парола"
+      save: Запази
+      these_fields_are_shown_only_to_you: "Потребителското име се показва във вашия профил, освен ако не сте посочили името си. Друга информация се показва само на вас."
+      email_already_confirmed: ~
+      email:
+        address_title: ~
+        remove_title: ~
+        remove_confirmation: ~
+        receive_notifications_title_desktop: ~
+        receive_notifications_title_mobile: ~
+        receive_notifications_new_title_mobile: ~
+        add_new_with_plus: ~
+        add_new_cancel: ~
+        confirmation_title_mobile: ~
+        confirmation_title_desktop: ~
+        confirmation_resend: ~
+        status_confirmed: ~
+        status_pending: Чакащ
+    notifications:
+      email_from_admins: "Приемам да получавам случайни имейли от екипа на %{service_name}"
+      i_want_to_get_email_notification_when: "Искам да получа известие по имейл, когато ..."
+      newsletters: "Имейли от администраторите"
+      community_updates: Бюлетини
+      email_about_confirm_reminders: ~
+      email_about_new_comments_to_own_listing: "...някой коментира моята оферта или молба"
+      email_about_new_messages: "...някой ми изпраща съобщение"
+      email_about_new_received_testimonials: "...някой ми дава обратна връзка"
+      email_about_testimonial_reminders: "...забравих да дам отзиви за дадено събитие"
+      email_daily_community_updates: "Изпращайте ми бюлетин <b> всеки ден </b> ако има нови обяви"
+      email_weekly_community_updates: "Изпратете ми <b> седмичен </b> бюлетин, ако има нови обяви"
+      do_not_email_community_updates: "Не ми изпращайте бюлетини"
+      email_when_conversation_accepted: "...някой приема моята оферта или молба"
+      email_when_conversation_rejected: "...някой отхвърли моята оферта или молба"
+      email_about_completed_transactions: ~
+      email_about_new_payments: ~
+      email_about_new_listings_by_followed_people: "... някой, който следя публикува нова обява"
+      unsubscribe_succesful: "Отписването е успешно"
+      unsubscribe_info_text: "Вече няма да получавате тези имейли. Проверете вашата %{settings_link} , за да изберете какъв вид имейли искате да получавате от %{service_name} , или се върнете към %{homepage_link}"
+      settings_link: настройки
+      homepage_link: "начална страница"
+      unsubscribe_unsuccesful: "Грешка при отписване"
+      unsuccessful_unsubscribe_info_text: "Връзката за отписване изтече. Влезте, за да промените настройките си за абонамент за имейл."
+    profile:
+      about_you: Описание
+      city: Град
+      family_name: "Фамилно име"
+      given_name: "Собствено име"
+      first_name_with_initial: "(само първа буква, показана на други потребители)"
+      first_name_only: "(не се показва на други потребители)"
+      display_name: "Публично име"
+      display_name_description: "Ако представлявате организация можете да използвате нейното име за публично име на вашия профил. Публичното име ще бъде показвано вместо личните ви собствени и фамилни имена."
+      location_description: "Можете да предоставите или своя личен адрес, или само град или пощенски код. Добре е също да добавите държавата си, когато добавяте местоположението си. Примери: \"10117 Берлин, Германия\" или \"2000 Sand Hill Road, Калифорния, САЩ\"."
+      profile_picture_description: "Изображение на профилната снимка трябва да бъде в квадратен формат (съотношение 1: 1), например 800x800 пиксела. В противен случай ще бъде изрязан, за да пасне."
+      phone_number: "Телефонен номер:"
+      profile_picture: "Профилна снимка"
+      postal_code: "Пощенски код"
+      profile_page: "в страницата на потребителския ви профил"
+      profilemap: ~
+      street_address: Местоположение
+      these_fields_are_shown_in_your: "Част от тази информация е видима за всички потребители на %{service_name}"
+      visible_to_everybody: "видим за всички"
+      visible_to_registered_users: "(видимо за потребители, които са влезли)"
+      default_in_listing: "(използва се само по подразбиране при създаване на нова обява)"
+      invisible: "(не се показва на други потребители)"
+      image_is_processing: "Изчакайте. Обработваме снимката на потребителския ви профил. Тя ще бъде готова след минута-две."
+      shown_in_your_public_profile: "(показано в обществения ви профил)"
+      editing_profile_of: "Сега редактирате потребителския профил на %{name}"
+      format_markdown_link: "форматирате вашето описание използвайки Markdown"
+      format_markdown: ~
+      username: Потребител
+      username_description: "Вашето потребителско име се използва като част от уникалния URL адрес на страницата на вашия профил. Можете да използвате само букви и цифри за потребителското си име, без интервали. Когато промените потребителското си име, вашият URL адрес автоматично ще се промени и предишният ви URL адрес няма да бъде пренасочен. Старото потребителско име ще стане достъпно за други потребители."
+    save_information: "Запазване на информация"
+  shipping_address:
+    shipping_address: ~
+  tag_cloud:
+    tag_used:
+      with_tag: "С етикет"
+      without_tag: "Без етикет"
+  terms:
+    show:
+      accept_terms: "Приемане на %{service_name} условия за ползване"
+      here: "Натиснете тук"
+      i_accept_new_terms: "Приемам новите условия"
+      i_accept_terms: "Приемам условията"
+      terms: "%{service_name} условия за ползване"
+      terms_have_changed: "Условията за ползване са променени"
+      you_can_view_the_new_terms: "Можете да прегледате новите условия"
+      you_need_to_accept: "Добре дошли в %{service_name}! Това е първият път, когато използвате услугата. Преди да започнете, първо трябва да приемете"
+      you_need_to_accept_new_terms: "%{service_name} условията за ползване са променени. Трябва да приемете новите условия, за да продължите да използвате%{service_name}. Новите условия имат цел за да дадат възможност за поддържане на услугата след приключване на проект."
+  testimonials:
+    index:
+      all_testimonials: "Всички отзиви"
+      feedback_altogether: "Общо обратна връзка: "
+      loading_more_testimonials: "Зареждане на още отзиви"
+      no_testimonials: "Не получихме отзиви."
+    new:
+      as_expected: "Както се очаква"
+      exceeded_expectations: "Много по-добре от очакваното"
+      give_feedback_to: "Дайте отзив на %{person}"
+      grade: "Какво е цялостното ти усещане?"
+      less_than_expected: "По-лошо от очакваното"
+      send_feedback: "Изпратете отзиви"
+      slightly_better_than_expected: "Малко по-добре от очакваното"
+      slightly_less_than_expected: "Малко по-лошо от очакваното"
+      textual_feedback: "Как минаха нещата?"
+      this_will_be_shown_in_profile: "Отзивите, които давате, ще бъдат видими за другите членове в страницата с профила на %{person}. Помага им да преценят дали %{person} е надежден човек."
+      positive: Положителен
+      negative: отрицателен
+      default_textual_feedback: "Всичко мина гладко, благодаря много!"
+    testimonial:
+      about_listing: ~
+  date:
+    formats:
+      long_with_abbr_day_name: ~
+    first_day_of_week: ~
+  datepicker:
+    days:
+      sunday: ~
+      monday: Понеделник
+      tuesday: ~
+      wednesday: ~
+      thursday: ~
+      friday: ~
+      saturday: ~
+    days_short:
+      sunday: ~
+      monday: Пон
+      tuesday: ~
+      wednesday: ~
+      thursday: ~
+      friday: ~
+      saturday: ~
+    days_min:
+      sunday: ~
+      monday: Пн
+      tuesday: ~
+      wednesday: ~
+      thursday: ~
+      friday: ~
+      saturday: ~
+    months:
+      january: Януари
+      february: Февруари
+      march: Март
+      april: Април
+      may: Май
+      june: Юни
+      july: Юли
+      august: Август
+      september: Септември
+      october: Октомври
+      november: Ноември
+      december: Декември
+    months_short:
+      january: Яну
+      february: Фев
+      march: Март
+      april: Апр
+      may: Май
+      june: Юни
+      july: Юли
+      august: Авг
+      september: Септ
+      october: Окт
+      november: Ное
+      december: Дек
+    today: ~
+    clear: ~
+    format: ~
+  time:
+    formats:
+      short: ~
+      shorter: "\n"
+      short_date: ~
+      hours_only: "%H:%M"
+  timestamps:
+    day_ago: "%{count} преди ден"
+    days_ago: "%{count} дни преди"
+    hour_ago: "%{count} преди час"
+    hours_ago: "%{count} преди часове"
+    minute_ago: "%{count} преди минути"
+    minutes_ago: "%{count} минути преди"
+    month_ago: "%{count} преди месец"
+    months_ago: "%{count} преди месеци"
+    seconds_ago: "%{count} преди секунди"
+    year_ago: "преди %{count} години"
+    years_ago: "преди %{count} години"
+    days_since:
+      one: "%{count} ден"
+      other: "%{count} дни"
+  transactions:
+    initiate:
+      booked_days: ~
+      booked_nights: ~
+      price_per_day: "Цена на ден:"
+      price_per_night: ~
+      price_per_hour: ~
+      price_per_unit: ~
+      quantity: ~
+      subtotal: ~
+      shipping-price: "Доставка:"
+      stripe-fee: ~
+      start_end_time: ~
+    price_per_quantity: "Цена за %{unit_type}:"
+    price: "Цена:"
+    quantity: ~
+    unit_price: "Единична цена: %{unit_price}"
+    total: ~
+    total_to_pay: ~
+  unit:
+    day: ~
+    days: ~
+  web:
+    listings:
+      errors:
+        availability:
+          something_went_wrong: ~
+          saving_failed: ~
+        working_hours:
+          required: ~
+          overlaps: ~
+          covers: ~
+      pricing_units:
+        piece: ~
+        hour: ~
+        day: ~
+        night: ~
+        week: ~
+        month: месец
+      edit_availability_header: ~
+      save_and_close_availability_editing: ~
+      confirm_discarding_unsaved_availability_changes_explanation: ~
+      confirm_discarding_unsaved_availability_changes_question: ~
+      edit_listing_availability: "Редактиране на наличността на обявите"
+      working_hours:
+        default_schedule: ~
+        i_am_available_on: ~
+        start_time: ~
+        end_time: ~
+        add_another_time_slot: ~
+        save: ~
+    no_listings:
+      sorry: ~
+      try_other_search_terms: ~
+    listing_card:
+      add_picture: ~
+      no_picture: ~
+    search:
+      page: ~
+      page_of_pages: ~
+    topbar:
+      menu: ~
+      more: ~
+      search_placeholder: ~
+      search_location_placeholder: Mестоположение
+      user: ~
+      inbox: Входящи
+      profile: Профил
+      manage_listings: ~
+      settings: ~
+      logout: Изход
+      login: Вход
+      signup: "Регистрирай се"
+      admin_dashboard: ~
+      language: ~
+      listings: "Моите обяви"
+    utils:
+      km: ~
+      mi: ~
+    branding:
+      powered_by: ~
+      create_own: ~
+      learn_more: ~
+  will_paginate:
+    previous_label: ~
+    next_label: ~
+    page_gap: ~
+    page_entries_info:
+      multi_page: ~
+      multi_page_html: ~
+    person:
+      community_members_entries_info:
+        multi_page: ~
+        multi_page_html: ~
+  stripe_accounts:
+    admin_account_not_connected: ~
+    contact_admin_link_text: ~
+    you_are_ready_to_accept_payments: ~
+    commission: ~
+    pay_with_stripe: ~
+    add_and_pay: ~
+    card_not_stored: ~
+    missing_payment: ~
+    stripe_bank_connected: ~
+    stripe_can_accept: ~
+    stripe_credit_card: ~
+    paypal: ~
+    paypal_connected: ~
+    paypal_can_accept: ~
+    paypal_connected_give_permission: ~
+    stripe_account_restricted: ~
+    stripe_account_restricted_info: ~
+    stripe_account_restricted_soon: ~
+    stripe_account_restricted_soon_info: ~
+    stripe_account_pending_verification: ~
+    stripe_account_pending_verification_info: ~
+    form_new:
+      need_info: ~
+      select_country: ~
+      legal_name: ~
+      first_name: ~
+      last_name: ~
+      first_name_kana: Име
+      last_name_kana: Фамилия
+      first_name_kanji: Име
+      last_name_kanji: Фамилия
+      country: ~
+      birth_date: ~
+      ssn_last_4: ~
+      personal_id_number: ~
+      address_country: ~
+      address_state: ~
+      address_province: ~
+      address_city: ~
+      address_postal_code: "Пощенски код"
+      address_line1: ~
+      tos_link: ~
+      tos_link_title: ~
+      save_details: ~
+      edit: ~
+      cancel: ~
+      gender: Пол
+      phone_number: "Телефонен номер"
+      phone_info_text: ~
+      address_kana_postal_code: "Пощенски код"
+      address_kana_state: Щат
+      address_kana_city: Град
+      address_kana_town: Град
+      address_kana_line1: Адрес
+      address_kanji_postal_code: "Пощенски код"
+      address_kanji_state: Щат
+      address_kanji_city: Град
+      address_kanji_town: Град
+      address_kanji_line1: Адрес
+      male: Мъж
+      female: Жена
+    form_bank:
+      bank_account_number: ~
+      bank_routing_number: ~
+      bank_routing_1: ~
+      bank_routing_2: ~
+      bank_currency: ~
+      update_also_bank_account: ~
+      messages:
+        account_number: ~
+        routing_number: ~
+        bank_code: ~
+        branch_code: ~
+        transit_number: ~
+        institution_number: ~
+        format_varies_by_bank: ~
+        bsb: ~
+        error_message: ~
+        clearing_code: ~
+        sort_code: ~
+        must_match: ~
+        a_dash: ~
+        digits: ~
+        digits_or_chars: ~
+    form_verification:
+      personal_id_number: ~
+      document: ~
+      document_back: ~
+      send_verification: ~
+      need_verification: ~
+      additional_document: ~
+      additional_document_back: ~
+      files_need_to_be: ~
+    form_pin:
+      social_insurance_number: ~
+      social_security_number: ~
+      ssn_last_4: ~
+      hong_kong_identity_card: ~
+      singapore_identity_card: ~
+      mexico_id_number: ~
+      messages:
+        social_insurance_number: ~
+  payment_settings:
+    title: ~
+    bank_account: ~
+    paypal: ~
+    bank_account_details: ~
+    add_bank_details: ~
+    can_accept_stripe_and_paypal: ~
+    to_accept_paypal: ~
+    connect_paypal: ~
+    wrong_setup: ~
+    invalid_bank_account_number: ~
+    invalid_postal_code: "Невалиден пощенски код за %{country}"
+  seo_sections:
+    you_can_use_variables: ~
+    placeholder:
+      search_results: ~
+      search_results_for: ~
+      listing_description: ~
+      listing_description_without_price: ~
+      category_description: ~
+      profile_title: "Профил %{user} - %{marketplace}"
+      profile_description: ~
+  activemodel:
+    attributes:
+      landing_page_version/section/base:
+        id: ~
+        title: ~
+        paragraph: ~
+        button_title: ~
+        button_path: ~
+        button_path_string: ~
+        background_image: ~
+        background_image_variation: ~
+        background_color: ~
+        background_color_string: ~
+      landing_page_version/section/listings:
+        listing_1_id: ~
+        listing_2_id: ~
+        listing_3_id: ~
+      landing_page_version/section/video:
+        text: ~
+        youtube_video_id: ~
+      landing_page_version/section/hero:
+        cta_button_text: ~
+        cta_button_url: ~
+  canada_states:
+    AB: Alberta
+    BC: "British Columbia"
+    MB: Manitoba
+    NB: "New Brunswick"
+    NL: "Newfoundland and Labrador"
+    NS: "Nova Scotia"
+    NT: "Northwest Territories"
+    NU: Nunavut
+    "ON": Ontario
+    PE: "Prince Edward Island"
+    QC: Quebec
+    SK: Saskatchewan
+    YT: "Yukon Territory"

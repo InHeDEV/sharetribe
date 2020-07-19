@@ -1,0 +1,72 @@
+- content_for :javascript do
+  ST.initializeCommunityCustomizations();
+
+- content_for :title_header do
+  %h1
+    = t("layouts.admin.admin")
+    = "-"
+    = t("admin.communities.edit_details.community_details")
+
+= render partial: 'layouts/onboarding_popup_wrapper'
+= render :partial => "admin/left_hand_navigation", :locals => { :links => admin_links_for(@current_community) }
+
+.left-navi-section
+  %h2= t("admin.communities.edit_details.edit_community", :community_name => @current_community.name(I18n.locale))
+  = form_tag admin_details_path, method: :patch, id: "edit_community" do |form|
+
+    = render partial: "locale_selection",    locals: locale_selection_locals
+    = render partial: "locale_input_fields", locals: community_name_locals
+    = render partial: "locale_input_fields", locals: community_slogan_locals
+    = render partial: "locale_input_fields", locals: community_description_locals
+    = render partial: "locale_input_fields", locals: community_search_placeholder_locals
+
+    .row
+      .col-12
+        .input-header
+          = t("admin.communities.edit_details.terms_privacy_policy_and_static_content")
+        - info_text = t("admin.communities.edit_details.terms_privacy_policy_and_static_content_infotext")
+        = render :partial => "layouts/info_text", :locals => { :text => info_text.html_safe }
+
+      %table
+        %tbody
+          %tr
+            %td
+              = link_to t('layouts.infos.about'), about_infos_path
+            %td
+              = link_to "/editor#{about_infos_path}" do
+                = icon_tag("edit", ["icon-fix"])
+          %tr
+            %td
+              = link_to t('layouts.infos.how_to_use'), how_to_use_infos_path
+            %td
+              = link_to "/editor#{how_to_use_infos_path}" do
+                = icon_tag("edit", ["icon-fix"])
+          %tr
+            %td
+              = link_to t('layouts.infos.register_details'), privacy_infos_path
+            %td
+              = link_to "/editor#{privacy_infos_path}" do
+                = icon_tag("edit", ["icon-fix"])
+          %tr
+            %td
+              = link_to t('layouts.infos.terms'), terms_infos_path
+            %td
+              = link_to "/editor#{terms_infos_path}" do
+                = icon_tag("edit", ["icon-fix"])
+
+    - if @show_transaction_agreement
+      .row
+        .col-12
+          = label_tag "transaction_label", t("admin.communities.edit_details.transaction_agreement"), class: "input"
+          = check_box_tag "community[transaction_agreement_checkbox]", @current_community.transaction_agreement_in_use?, @current_community.transaction_agreement_in_use?, class: "checkbox-row-checkbox"
+          = label_tag "community[transaction_agreement_checkbox]", t("admin.communities.edit_details.transaction_agreement_checkbox"), class:"checkbox-row-label"
+
+      = render partial: "locale_input_fields", locals: transaction_agreement_label_locals
+      = render partial: "locale_input_textarea", locals: transaction_agreement_text_locals
+
+    .row
+      .col-12
+        = button_tag t("admin.communities.edit_details.save")
+
+
+= render :partial => "people/help_texts", :collection => ["invite_only_help_text"], :as => :field
